@@ -1,0 +1,340 @@
+[
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            2840,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Copper Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                2770,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            3576,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Tin Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                2771,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            2841,
+            2,
+            2
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Bronze Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                2840,
+                1
+            ],
+            [
+                3576,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            2842,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Silver Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                2775,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            3575,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Iron Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                2772,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            3577,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Gold Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                2776,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            3559,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Steel Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                3575,
+                1
+            ],
+            [
+                3857,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            3860,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Mithril Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                3858,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            11371,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Dark Iron Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                11370,
+                8
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            6037,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Truesilver Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                7911,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    },
+    {
+        "cat": 9,
+        "colors": [
+            1,
+            30,
+            45,
+            60
+        ],
+        "creates": [
+            12359,
+            1,
+            1
+        ],
+        "id": 3275,
+        "learnedat": 1,
+        "level": 0,
+        "name": "Thorium Bar",
+        "nskillup": 1,
+        "quality": 1,
+        "reagents": [
+            [
+                10620,
+                1
+            ]
+        ],
+        "schools": 1,
+        "skill": [
+            129
+        ]
+    }
+]

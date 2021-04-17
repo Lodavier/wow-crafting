@@ -1,0 +1,143 @@
+{
+  "Copper Ore": {
+    "id": 2770,
+    "quality": 1
+  },
+  "Copper Bar": {
+    "id": 2840,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Copper Ore": 1
+    }
+  },
+  "Tin Ore": {
+    "id": 2771,
+    "quality": 1
+  },
+  "Tin Bar": {
+    "id": 3576,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Tin Ore": 1
+    }
+  },
+  "Bronze Bar": {
+    "id": 2841,
+    "quality": 1,
+    "craftMin": 2,
+    "craftMax": 2,
+    "reagents": {
+      "Copper Bar": 1,
+      "Tin Bar": 1
+    }
+  },
+  "Silver Ore": {
+    "id": 2775,
+    "quality": 1
+  },
+  "Silver Bar": {
+    "id": 2842,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Silver Ore": 1
+    }
+  },
+  "Iron Ore": {
+    "id": 2772,
+    "quality": 1
+  },
+  "Iron Bar": {
+    "id": 3575,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Iron Ore": 1
+    }
+  },
+  "Gold Ore": {
+    "id": 2776,
+    "quality": 1
+  },
+  "Gold Bar": {
+    "id": 3577,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Gold Ore": 1
+    }
+  },
+  "Coal": {
+    "id": 3857,
+    "quality": 1
+  },
+  "Steel Bar": {
+    "id": 3559,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Iron Bar": 1,
+      "Coal": 1
+    }
+  },
+  "Mithril Ore": {
+    "id": 3858,
+    "quality": 1
+  },
+  "Mithril Bar": {
+    "id": 3860,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Mithril Ore": 1
+    }
+  },
+  "Dark Iron Ore": {
+    "id": 11370,
+    "quality": 1
+  },
+  "Dark Iron Bar": {
+    "id": 11371,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Dark Iron Ore": 8
+    }
+  },
+  "Truesilver Ore": {
+    "id": 7911,
+    "quality": 1
+  },
+  "Truesilver Bar": {
+    "id": 6037,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Truesilver Ore": 1
+    }
+  },
+  "Thorium Ore": {
+    "id": 10620,
+    "quality": 1
+  },
+  "Thorium Bar": {
+    "id": 12359,
+    "quality": 1,
+    "craftMin": 1,
+    "craftMax": 1,
+    "reagents": {
+      "Thorium Ore": 1
+    }
+  }
+}

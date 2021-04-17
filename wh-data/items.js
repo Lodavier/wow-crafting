@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const profession = 'firstaid';
+const profession = 'mining';
 
 const items = JSON.parse(fs.readFileSync(`${profession}1.json`, {encoding: "utf-8"}));
 const recipes = JSON.parse(fs.readFileSync(`${profession}2.json`, {encoding: "utf-8"}));

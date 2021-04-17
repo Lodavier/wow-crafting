@@ -47,7 +47,17 @@ const factionOptions = [
   {value: "both", label: "Both"},
 ];
 
-const profNames = {alchemy: "Alchemy", blacksmithing: "Blacksmithing", cooking: "Cooking", enchanting: "Enchanting", engineering: "Engineering", firstaid: "First Aid", leatherworking: "Leatherworking", tailoring: "Tailoring"};
+const profNames = {
+  alchemy: "Alchemy", 
+  blacksmithing: "Blacksmithing", 
+  cooking: "Cooking", 
+  enchanting: "Enchanting", 
+  engineering: "Engineering", 
+  firstaid: "First Aid", 
+  leatherworking: "Leatherworking", 
+  mining: "Mining",
+  tailoring: "Tailoring"
+};
 const categoryNames = {...profNames, quest: "Quests", tierset: "Tier Sets", "": "Misc"};
 
 const itemOptions = (term, callback) => {

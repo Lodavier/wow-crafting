@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const names = ['alchemy', 'blacksmithing', 'cooking', 'enchanting', 'engineering', 'firstaid', 'leatherworking', 'tailoring'];
+const names = ['alchemy', 'blacksmithing', 'cooking', 'enchanting', 'engineering', 'firstaid', 'leatherworking', 'mining', 'tailoring'];
 
 const results = {};
 names.forEach(prof => {

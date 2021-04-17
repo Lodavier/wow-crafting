@@ -1,0 +1,419 @@
+{
+    "2840": {
+        "name_enus": "Copper Bar",
+        "quality": 1,
+        "icon": "inv_ingot_02",
+        "screenshot": {
+            "id": 542893,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 44,
+            "displayid": 7383,
+            "dmgrange": 1,
+            "sellprice": 13
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "2770": {
+        "name_enus": "Copper Ore",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "2771": {
+        "name_enus": "Tin Ore",
+        "quality": 1,
+        "icon": "inv_ore_tin_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "3576": {
+        "name_enus": "Tin Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "2841": {
+        "name_enus": "Bronze Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "2842": {
+        "name_enus": "Silver Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "2775": {
+        "name_enus": "Silver Ore",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "3575": {
+        "name_enus": "Iron Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "2772": {
+        "name_enus": "Iron Ore",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "3577": {
+        "name_enus": "Gold Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "2776": {
+        "name_enus": "Gold Ore",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "3559": {
+        "name_enus": "Steel Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "3857": {
+        "name_enus": "Coal",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "3860": {
+        "name_enus": "Mithril Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "3858": {
+        "name_enus": "Mithril Ore",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "11371": {
+        "name_enus": "Dark Iron Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "11370": {
+        "name_enus": "Dark Iron Ore",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "6037": {
+        "name_enus": "Truesilver Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "7911": {
+        "name_enus": "Truesilver Ore",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "12359": {
+        "name_enus": "Thorium Bar",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    },
+    "10620": {
+        "name_enus": "Thorium Ore",
+        "quality": 1,
+        "icon": "inv_ore_copper_01",
+        "screenshot": {
+            "id": 476849,
+            "imageType": 2
+        },
+        "jsonequip": {
+            "avgbuyout": 100,
+            "displayid": 11907,
+            "dmgrange": 1,
+            "healthrgn": 11,
+            "reqskill": 129,
+            "reqskillrank": 1,
+            "sellprice": 10
+        },
+        "attainable": 0,
+        "flags2": 8192
+    }
+}
