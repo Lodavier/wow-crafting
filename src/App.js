@@ -56,7 +56,8 @@ const profNames = {
   firstaid: "First Aid", 
   leatherworking: "Leatherworking", 
   mining: "Mining",
-  tailoring: "Tailoring"
+  tailoring: "Tailoring",
+  jewelcrafting: "Jewelcrafting"
 };
 const categoryNames = {...profNames, quest: "Quests", tierset: "Tier Sets", "": "Misc"};
 
@@ -150,7 +151,7 @@ function shoppingList(list, results, item, count, overrides) {
 
 function ItemLink({name, data}) {
   if (data.id) {
-    return <a className={"quality-" + data.quality} href={`https://classic.wowhead.com/item=${data.id}`} target="_blank" rel="noreferrer">{name}</a>;
+    return <a className={"quality-" + data.quality} href={`https://tbc.wowhead.com/item=${data.id}`} target="_blank" rel="noreferrer">{name}</a>;
   } else {
     return <span className={"quality-" + data.quality}>{name}</span>;
   }
