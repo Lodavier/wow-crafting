@@ -1,0 +1,5400 @@
+[
+    {
+        "spellId": 7418,
+        "name": "Enchant Bracer - Minor Health",
+        "colors": [
+            0,
+            70,
+            90,
+            110
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7420,
+        "name": "Enchant Chest - Minor Health",
+        "colors": [
+            15,
+            70,
+            90,
+            110
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7421,
+        "name": "Runed Copper Rod",
+        "colors": [
+            1,
+            5,
+            7,
+            10
+        ],
+        "reagents": [
+            {
+                "itemId": 6217,
+                "amount": 1
+            },
+            {
+                "itemId": 10940,
+                "amount": 1
+            },
+            {
+                "itemId": 10938,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            6218,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7426,
+        "name": "Enchant Chest - Minor Absorption",
+        "colors": [
+            40,
+            90,
+            110,
+            130
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 2
+            },
+            {
+                "itemId": 10938,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7428,
+        "name": "Enchant Bracer - Minor Deflection",
+        "colors": [
+            0,
+            80,
+            100,
+            120
+        ],
+        "reagents": [
+            {
+                "itemId": 10938,
+                "amount": 1
+            },
+            {
+                "itemId": 10940,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7443,
+        "name": "Enchant Chest - Minor Mana",
+        "colors": [
+            20,
+            80,
+            100,
+            120
+        ],
+        "reagents": [
+            {
+                "itemId": 10938,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            6342
+        ]
+    },
+    {
+        "spellId": 7454,
+        "name": "Enchant Cloak - Minor Resistance",
+        "colors": [
+            45,
+            95,
+            115,
+            135
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 1
+            },
+            {
+                "itemId": 10938,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7457,
+        "name": "Enchant Bracer - Minor Stamina",
+        "colors": [
+            50,
+            100,
+            120,
+            140
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 3
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7745,
+        "name": "Enchant 2H Weapon - Minor Impact",
+        "colors": [
+            100,
+            130,
+            150,
+            170
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 4
+            },
+            {
+                "itemId": 10978,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7748,
+        "name": "Enchant Chest - Lesser Health",
+        "colors": [
+            60,
+            105,
+            125,
+            145
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 2
+            },
+            {
+                "itemId": 10938,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7766,
+        "name": "Enchant Bracer - Minor Spirit",
+        "colors": [
+            60,
+            105,
+            125,
+            145
+        ],
+        "reagents": [
+            {
+                "itemId": 10938,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            6344
+        ]
+    },
+    {
+        "spellId": 7771,
+        "name": "Enchant Cloak - Minor Protection",
+        "colors": [
+            70,
+            110,
+            130,
+            150
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 3
+            },
+            {
+                "itemId": 10939,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            6345
+        ]
+    },
+    {
+        "spellId": 7776,
+        "name": "Enchant Chest - Lesser Mana",
+        "colors": [
+            80,
+            115,
+            135,
+            155
+        ],
+        "reagents": [
+            {
+                "itemId": 10939,
+                "amount": 1
+            },
+            {
+                "itemId": 10938,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            6346
+        ]
+    },
+    {
+        "spellId": 7779,
+        "name": "Enchant Bracer - Minor Agility",
+        "colors": [
+            80,
+            115,
+            135,
+            155
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 2
+            },
+            {
+                "itemId": 10939,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7782,
+        "name": "Enchant Bracer - Minor Strength",
+        "colors": [
+            80,
+            115,
+            135,
+            155
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 5
+            }
+        ],
+        "recipes": [
+            6347
+        ]
+    },
+    {
+        "spellId": 7786,
+        "name": "Enchant Weapon - Minor Beastslayer",
+        "colors": [
+            90,
+            120,
+            140,
+            160
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 4
+            },
+            {
+                "itemId": 10939,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            6348
+        ]
+    },
+    {
+        "spellId": 7788,
+        "name": "Enchant Weapon - Minor Striking",
+        "colors": [
+            90,
+            120,
+            140,
+            160
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 2
+            },
+            {
+                "itemId": 10939,
+                "amount": 1
+            },
+            {
+                "itemId": 10978,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7793,
+        "name": "Enchant 2H Weapon - Lesser Intellect",
+        "colors": [
+            100,
+            130,
+            150,
+            170
+        ],
+        "reagents": [
+            {
+                "itemId": 10939,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            6349
+        ]
+    },
+    {
+        "spellId": 7795,
+        "name": "Runed Silver Rod",
+        "colors": [
+            100,
+            130,
+            150,
+            170
+        ],
+        "reagents": [
+            {
+                "itemId": 6338,
+                "amount": 1
+            },
+            {
+                "itemId": 10940,
+                "amount": 6
+            },
+            {
+                "itemId": 10939,
+                "amount": 3
+            },
+            {
+                "itemId": 6218,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            6339,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7857,
+        "name": "Enchant Chest - Health",
+        "colors": [
+            120,
+            145,
+            165,
+            185
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 4
+            },
+            {
+                "itemId": 10998,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7859,
+        "name": "Enchant Bracer - Lesser Spirit",
+        "colors": [
+            120,
+            145,
+            165,
+            185
+        ],
+        "reagents": [
+            {
+                "itemId": 10998,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            6375
+        ]
+    },
+    {
+        "spellId": 7861,
+        "name": "Enchant Cloak - Lesser Fire Resistance",
+        "colors": [
+            125,
+            150,
+            170,
+            190
+        ],
+        "reagents": [
+            {
+                "itemId": 6371,
+                "amount": 1
+            },
+            {
+                "itemId": 10998,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 7863,
+        "name": "Enchant Boots - Minor Stamina",
+        "colors": [
+            125,
+            150,
+            170,
+            190
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            6376
+        ]
+    },
+    {
+        "spellId": 7867,
+        "name": "Enchant Boots - Minor Agility",
+        "colors": [
+            125,
+            150,
+            170,
+            190
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 6
+            },
+            {
+                "itemId": 10998,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            6377
+        ]
+    },
+    {
+        "spellId": 13378,
+        "name": "Enchant Shield - Minor Stamina",
+        "colors": [
+            105,
+            130,
+            150,
+            170
+        ],
+        "reagents": [
+            {
+                "itemId": 10998,
+                "amount": 1
+            },
+            {
+                "itemId": 10940,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13380,
+        "name": "Enchant 2H Weapon - Lesser Spirit",
+        "colors": [
+            110,
+            135,
+            155,
+            175
+        ],
+        "reagents": [
+            {
+                "itemId": 10998,
+                "amount": 1
+            },
+            {
+                "itemId": 10940,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            11038
+        ]
+    },
+    {
+        "spellId": 13419,
+        "name": "Enchant Cloak - Minor Agility",
+        "colors": [
+            110,
+            135,
+            155,
+            175
+        ],
+        "reagents": [
+            {
+                "itemId": 10998,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11039
+        ]
+    },
+    {
+        "spellId": 13421,
+        "name": "Enchant Cloak - Lesser Protection",
+        "colors": [
+            115,
+            140,
+            160,
+            180
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 6
+            },
+            {
+                "itemId": 10978,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13464,
+        "name": "Enchant Shield - Lesser Protection",
+        "colors": [
+            115,
+            140,
+            160,
+            180
+        ],
+        "reagents": [
+            {
+                "itemId": 10998,
+                "amount": 1
+            },
+            {
+                "itemId": 10940,
+                "amount": 1
+            },
+            {
+                "itemId": 10978,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11081
+        ]
+    },
+    {
+        "spellId": 13485,
+        "name": "Enchant Shield - Lesser Spirit",
+        "colors": [
+            130,
+            155,
+            175,
+            195
+        ],
+        "reagents": [
+            {
+                "itemId": 10998,
+                "amount": 2
+            },
+            {
+                "itemId": 10940,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13501,
+        "name": "Enchant Bracer - Lesser Stamina",
+        "colors": [
+            130,
+            155,
+            175,
+            195
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13503,
+        "name": "Enchant Weapon - Lesser Striking",
+        "colors": [
+            140,
+            165,
+            185,
+            205
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 2
+            },
+            {
+                "itemId": 11084,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13522,
+        "name": "Enchant Cloak - Lesser Shadow Resistance",
+        "colors": [
+            135,
+            160,
+            180,
+            200
+        ],
+        "reagents": [
+            {
+                "itemId": 11082,
+                "amount": 1
+            },
+            {
+                "itemId": 6048,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11098
+        ]
+    },
+    {
+        "spellId": 13529,
+        "name": "Enchant 2H Weapon - Lesser Impact",
+        "colors": [
+            145,
+            170,
+            190,
+            210
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 3
+            },
+            {
+                "itemId": 11084,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13536,
+        "name": "Enchant Bracer - Lesser Strength",
+        "colors": [
+            140,
+            165,
+            185,
+            205
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            11101
+        ]
+    },
+    {
+        "spellId": 13538,
+        "name": "Enchant Chest - Lesser Absorption",
+        "colors": [
+            140,
+            165,
+            185,
+            205
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 2
+            },
+            {
+                "itemId": 11082,
+                "amount": 1
+            },
+            {
+                "itemId": 11084,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13607,
+        "name": "Enchant Chest - Mana",
+        "colors": [
+            145,
+            170,
+            190,
+            210
+        ],
+        "reagents": [
+            {
+                "itemId": 11082,
+                "amount": 1
+            },
+            {
+                "itemId": 10998,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13612,
+        "name": "Enchant Gloves - Mining",
+        "colors": [
+            145,
+            170,
+            190,
+            210
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 1
+            },
+            {
+                "itemId": 2772,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            11150
+        ]
+    },
+    {
+        "spellId": 13617,
+        "name": "Enchant Gloves - Herbalism",
+        "colors": [
+            145,
+            170,
+            190,
+            210
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 1
+            },
+            {
+                "itemId": 3356,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            11151
+        ]
+    },
+    {
+        "spellId": 13620,
+        "name": "Enchant Gloves - Fishing",
+        "colors": [
+            145,
+            170,
+            190,
+            210
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 1
+            },
+            {
+                "itemId": 6370,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            11152
+        ]
+    },
+    {
+        "spellId": 13622,
+        "name": "Enchant Bracer - Lesser Intellect",
+        "colors": [
+            150,
+            175,
+            195,
+            215
+        ],
+        "reagents": [
+            {
+                "itemId": 11082,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13626,
+        "name": "Enchant Chest - Minor Stats",
+        "colors": [
+            150,
+            175,
+            195,
+            215
+        ],
+        "reagents": [
+            {
+                "itemId": 11082,
+                "amount": 1
+            },
+            {
+                "itemId": 11083,
+                "amount": 1
+            },
+            {
+                "itemId": 11084,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13628,
+        "name": "Runed Golden Rod",
+        "colors": [
+            150,
+            175,
+            195,
+            215
+        ],
+        "reagents": [
+            {
+                "itemId": 11128,
+                "amount": 1
+            },
+            {
+                "itemId": 5500,
+                "amount": 1
+            },
+            {
+                "itemId": 11082,
+                "amount": 2
+            },
+            {
+                "itemId": 11083,
+                "amount": 2
+            },
+            {
+                "itemId": 6339,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            11130,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13631,
+        "name": "Enchant Shield - Lesser Stamina",
+        "colors": [
+            155,
+            175,
+            195,
+            215
+        ],
+        "reagents": [
+            {
+                "itemId": 11134,
+                "amount": 1
+            },
+            {
+                "itemId": 11083,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13635,
+        "name": "Enchant Cloak - Defense",
+        "colors": [
+            155,
+            175,
+            195,
+            215
+        ],
+        "reagents": [
+            {
+                "itemId": 11138,
+                "amount": 1
+            },
+            {
+                "itemId": 11083,
+                "amount": 3
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13637,
+        "name": "Enchant Boots - Lesser Agility",
+        "colors": [
+            160,
+            180,
+            200,
+            220
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 1
+            },
+            {
+                "itemId": 11134,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13640,
+        "name": "Enchant Chest - Greater Health",
+        "colors": [
+            160,
+            180,
+            200,
+            220
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 3
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13642,
+        "name": "Enchant Bracer - Spirit",
+        "colors": [
+            165,
+            185,
+            205,
+            225
+        ],
+        "reagents": [
+            {
+                "itemId": 11134,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13644,
+        "name": "Enchant Boots - Lesser Stamina",
+        "colors": [
+            170,
+            190,
+            210,
+            230
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13646,
+        "name": "Enchant Bracer - Lesser Deflection",
+        "colors": [
+            170,
+            190,
+            210,
+            230
+        ],
+        "reagents": [
+            {
+                "itemId": 11134,
+                "amount": 1
+            },
+            {
+                "itemId": 11083,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            11163
+        ]
+    },
+    {
+        "spellId": 13648,
+        "name": "Enchant Bracer - Stamina",
+        "colors": [
+            170,
+            190,
+            210,
+            230
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 6
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13653,
+        "name": "Enchant Weapon - Lesser Beastslayer",
+        "colors": [
+            175,
+            195,
+            215,
+            235
+        ],
+        "reagents": [
+            {
+                "itemId": 11134,
+                "amount": 1
+            },
+            {
+                "itemId": 5637,
+                "amount": 2
+            },
+            {
+                "itemId": 11138,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11164
+        ]
+    },
+    {
+        "spellId": 13655,
+        "name": "Enchant Weapon - Lesser Elemental Slayer",
+        "colors": [
+            175,
+            195,
+            215,
+            235
+        ],
+        "reagents": [
+            {
+                "itemId": 11134,
+                "amount": 1
+            },
+            {
+                "itemId": 7067,
+                "amount": 1
+            },
+            {
+                "itemId": 11138,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11165
+        ]
+    },
+    {
+        "spellId": 13657,
+        "name": "Enchant Cloak - Fire Resistance",
+        "colors": [
+            175,
+            195,
+            215,
+            235
+        ],
+        "reagents": [
+            {
+                "itemId": 11134,
+                "amount": 1
+            },
+            {
+                "itemId": 7068,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13659,
+        "name": "Enchant Shield - Spirit",
+        "colors": [
+            180,
+            200,
+            220,
+            240
+        ],
+        "reagents": [
+            {
+                "itemId": 11135,
+                "amount": 1
+            },
+            {
+                "itemId": 11137,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13661,
+        "name": "Enchant Bracer - Strength",
+        "colors": [
+            180,
+            200,
+            220,
+            240
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13663,
+        "name": "Enchant Chest - Greater Mana",
+        "colors": [
+            185,
+            205,
+            225,
+            245
+        ],
+        "reagents": [
+            {
+                "itemId": 11135,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13687,
+        "name": "Enchant Boots - Lesser Spirit",
+        "colors": [
+            190,
+            210,
+            230,
+            250
+        ],
+        "reagents": [
+            {
+                "itemId": 11135,
+                "amount": 1
+            },
+            {
+                "itemId": 11134,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            11167
+        ]
+    },
+    {
+        "spellId": 13689,
+        "name": "Enchant Shield - Lesser Block",
+        "colors": [
+            195,
+            215,
+            235,
+            255
+        ],
+        "reagents": [
+            {
+                "itemId": 11135,
+                "amount": 2
+            },
+            {
+                "itemId": 11137,
+                "amount": 2
+            },
+            {
+                "itemId": 11139,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11168
+        ]
+    },
+    {
+        "spellId": 13693,
+        "name": "Enchant Weapon - Striking",
+        "colors": [
+            195,
+            215,
+            235,
+            255
+        ],
+        "reagents": [
+            {
+                "itemId": 11135,
+                "amount": 2
+            },
+            {
+                "itemId": 11139,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13695,
+        "name": "Enchant 2H Weapon - Impact",
+        "colors": [
+            200,
+            220,
+            240,
+            260
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 4
+            },
+            {
+                "itemId": 11139,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13698,
+        "name": "Enchant Gloves - Skinning",
+        "colors": [
+            200,
+            220,
+            240,
+            260
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 1
+            },
+            {
+                "itemId": 7392,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            11166
+        ]
+    },
+    {
+        "spellId": 13700,
+        "name": "Enchant Chest - Lesser Stats",
+        "colors": [
+            200,
+            220,
+            240,
+            260
+        ],
+        "reagents": [
+            {
+                "itemId": 11135,
+                "amount": 2
+            },
+            {
+                "itemId": 11137,
+                "amount": 2
+            },
+            {
+                "itemId": 11139,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13702,
+        "name": "Runed Truesilver Rod",
+        "colors": [
+            200,
+            220,
+            240,
+            260
+        ],
+        "reagents": [
+            {
+                "itemId": 11144,
+                "amount": 1
+            },
+            {
+                "itemId": 7971,
+                "amount": 1
+            },
+            {
+                "itemId": 11135,
+                "amount": 2
+            },
+            {
+                "itemId": 11137,
+                "amount": 2
+            },
+            {
+                "itemId": 11130,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            11145,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13746,
+        "name": "Enchant Cloak - Greater Defense",
+        "colors": [
+            205,
+            225,
+            245,
+            265
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 3
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13794,
+        "name": "Enchant Cloak - Resistance",
+        "colors": [
+            205,
+            225,
+            245,
+            265
+        ],
+        "reagents": [
+            {
+                "itemId": 11174,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13815,
+        "name": "Enchant Gloves - Agility",
+        "colors": [
+            210,
+            230,
+            250,
+            270
+        ],
+        "reagents": [
+            {
+                "itemId": 11174,
+                "amount": 1
+            },
+            {
+                "itemId": 11137,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13817,
+        "name": "Enchant Shield - Stamina",
+        "colors": [
+            210,
+            230,
+            250,
+            270
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 5
+            }
+        ],
+        "recipes": [
+            11202
+        ]
+    },
+    {
+        "spellId": 13822,
+        "name": "Enchant Bracer - Intellect",
+        "colors": [
+            210,
+            230,
+            250,
+            270
+        ],
+        "reagents": [
+            {
+                "itemId": 11174,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13836,
+        "name": "Enchant Boots - Stamina",
+        "colors": [
+            215,
+            235,
+            255,
+            275
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 5
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13841,
+        "name": "Enchant Gloves - Advanced Mining",
+        "colors": [
+            215,
+            235,
+            255,
+            275
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 3
+            },
+            {
+                "itemId": 6037,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            11203
+        ]
+    },
+    {
+        "spellId": 13846,
+        "name": "Enchant Bracer - Greater Spirit",
+        "colors": [
+            220,
+            240,
+            260,
+            280
+        ],
+        "reagents": [
+            {
+                "itemId": 11174,
+                "amount": 3
+            },
+            {
+                "itemId": 11137,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11204
+        ]
+    },
+    {
+        "spellId": 13858,
+        "name": "Enchant Chest - Superior Health",
+        "colors": [
+            220,
+            240,
+            260,
+            280
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 6
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13868,
+        "name": "Enchant Gloves - Advanced Herbalism",
+        "colors": [
+            225,
+            245,
+            265,
+            285
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 3
+            },
+            {
+                "itemId": 8838,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            11205
+        ]
+    },
+    {
+        "spellId": 13882,
+        "name": "Enchant Cloak - Lesser Agility",
+        "colors": [
+            225,
+            245,
+            265,
+            285
+        ],
+        "reagents": [
+            {
+                "itemId": 11174,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            11206
+        ]
+    },
+    {
+        "spellId": 13887,
+        "name": "Enchant Gloves - Strength",
+        "colors": [
+            225,
+            245,
+            265,
+            285
+        ],
+        "reagents": [
+            {
+                "itemId": 11174,
+                "amount": 2
+            },
+            {
+                "itemId": 11137,
+                "amount": 3
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13890,
+        "name": "Enchant Boots - Minor Speed",
+        "colors": [
+            225,
+            245,
+            265,
+            285
+        ],
+        "reagents": [
+            {
+                "itemId": 11177,
+                "amount": 1
+            },
+            {
+                "itemId": 7909,
+                "amount": 1
+            },
+            {
+                "itemId": 11174,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13898,
+        "name": "Enchant Weapon - Fiery Weapon",
+        "colors": [
+            265,
+            285,
+            305,
+            325
+        ],
+        "reagents": [
+            {
+                "itemId": 11177,
+                "amount": 4
+            },
+            {
+                "itemId": 7078,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11207
+        ]
+    },
+    {
+        "spellId": 13905,
+        "name": "Enchant Shield - Greater Spirit",
+        "colors": [
+            230,
+            250,
+            270,
+            290
+        ],
+        "reagents": [
+            {
+                "itemId": 11175,
+                "amount": 1
+            },
+            {
+                "itemId": 11176,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13915,
+        "name": "Enchant Weapon - Demonslaying",
+        "colors": [
+            230,
+            250,
+            270,
+            290
+        ],
+        "reagents": [
+            {
+                "itemId": 11177,
+                "amount": 1
+            },
+            {
+                "itemId": 11176,
+                "amount": 2
+            },
+            {
+                "itemId": 9224,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11208
+        ]
+    },
+    {
+        "spellId": 13917,
+        "name": "Enchant Chest - Superior Mana",
+        "colors": [
+            230,
+            250,
+            270,
+            290
+        ],
+        "reagents": [
+            {
+                "itemId": 11175,
+                "amount": 1
+            },
+            {
+                "itemId": 11174,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13931,
+        "name": "Enchant Bracer - Deflection",
+        "colors": [
+            235,
+            255,
+            275,
+            295
+        ],
+        "reagents": [
+            {
+                "itemId": 11175,
+                "amount": 1
+            },
+            {
+                "itemId": 11176,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            11223
+        ]
+    },
+    {
+        "spellId": 13933,
+        "name": "Enchant Shield - Frost Resistance",
+        "colors": [
+            235,
+            255,
+            275,
+            295
+        ],
+        "reagents": [
+            {
+                "itemId": 11178,
+                "amount": 1
+            },
+            {
+                "itemId": 3829,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            11224
+        ]
+    },
+    {
+        "spellId": 13935,
+        "name": "Enchant Boots - Agility",
+        "colors": [
+            235,
+            255,
+            275,
+            295
+        ],
+        "reagents": [
+            {
+                "itemId": 11175,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13937,
+        "name": "Enchant 2H Weapon - Greater Impact",
+        "colors": [
+            240,
+            260,
+            280,
+            300
+        ],
+        "reagents": [
+            {
+                "itemId": 11178,
+                "amount": 2
+            },
+            {
+                "itemId": 11176,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13939,
+        "name": "Enchant Bracer - Greater Strength",
+        "colors": [
+            240,
+            260,
+            280,
+            300
+        ],
+        "reagents": [
+            {
+                "itemId": 11176,
+                "amount": 2
+            },
+            {
+                "itemId": 11175,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13941,
+        "name": "Enchant Chest - Stats",
+        "colors": [
+            245,
+            265,
+            285,
+            305
+        ],
+        "reagents": [
+            {
+                "itemId": 11178,
+                "amount": 1
+            },
+            {
+                "itemId": 11176,
+                "amount": 3
+            },
+            {
+                "itemId": 11175,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13943,
+        "name": "Enchant Weapon - Greater Striking",
+        "colors": [
+            245,
+            265,
+            285,
+            305
+        ],
+        "reagents": [
+            {
+                "itemId": 11178,
+                "amount": 2
+            },
+            {
+                "itemId": 11175,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 13945,
+        "name": "Enchant Bracer - Greater Stamina",
+        "colors": [
+            245,
+            265,
+            285,
+            305
+        ],
+        "reagents": [
+            {
+                "itemId": 11176,
+                "amount": 5
+            }
+        ],
+        "recipes": [
+            11225
+        ]
+    },
+    {
+        "spellId": 13947,
+        "name": "Enchant Gloves - Riding Skill",
+        "colors": [
+            250,
+            270,
+            290,
+            310
+        ],
+        "reagents": [
+            {
+                "itemId": 11178,
+                "amount": 2
+            },
+            {
+                "itemId": 11176,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            11226
+        ]
+    },
+    {
+        "spellId": 13948,
+        "name": "Enchant Gloves - Minor Haste",
+        "colors": [
+            250,
+            270,
+            290,
+            310
+        ],
+        "reagents": [
+            {
+                "itemId": 11178,
+                "amount": 2
+            },
+            {
+                "itemId": 8153,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 14293,
+        "name": "Lesser Magic Wand",
+        "colors": [
+            10,
+            75,
+            95,
+            115
+        ],
+        "reagents": [
+            {
+                "itemId": 4470,
+                "amount": 1
+            },
+            {
+                "itemId": 10938,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            11287,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 14807,
+        "name": "Greater Magic Wand",
+        "colors": [
+            70,
+            110,
+            130,
+            150
+        ],
+        "reagents": [
+            {
+                "itemId": 4470,
+                "amount": 1
+            },
+            {
+                "itemId": 10939,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            11288,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 14809,
+        "name": "Lesser Mystic Wand",
+        "colors": [
+            155,
+            175,
+            195,
+            215
+        ],
+        "reagents": [
+            {
+                "itemId": 11291,
+                "amount": 1
+            },
+            {
+                "itemId": 11134,
+                "amount": 1
+            },
+            {
+                "itemId": 11083,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            11289,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 14810,
+        "name": "Greater Mystic Wand",
+        "colors": [
+            175,
+            195,
+            215,
+            235
+        ],
+        "reagents": [
+            {
+                "itemId": 11291,
+                "amount": 1
+            },
+            {
+                "itemId": 11135,
+                "amount": 1
+            },
+            {
+                "itemId": 11137,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            11290,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 15596,
+        "name": "Smoking Heart of the Mountain",
+        "colors": [
+            265,
+            285,
+            305,
+            325
+        ],
+        "reagents": [
+            {
+                "itemId": 11382,
+                "amount": 1
+            },
+            {
+                "itemId": 7078,
+                "amount": 1
+            },
+            {
+                "itemId": 14343,
+                "amount": 3
+            }
+        ],
+        "creates": [
+            11811,
+            1,
+            1
+        ],
+        "recipes": [
+            11813
+        ]
+    },
+    {
+        "spellId": 17180,
+        "name": "Enchanted Thorium",
+        "colors": [
+            250,
+            250,
+            255,
+            260
+        ],
+        "reagents": [
+            {
+                "itemId": 12359,
+                "amount": 1
+            },
+            {
+                "itemId": 11176,
+                "amount": 3
+            }
+        ],
+        "creates": [
+            12655,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 17181,
+        "name": "Enchanted Leather",
+        "colors": [
+            250,
+            250,
+            255,
+            260
+        ],
+        "reagents": [
+            {
+                "itemId": 8170,
+                "amount": 1
+            },
+            {
+                "itemId": 16202,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            12810,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 20008,
+        "name": "Enchant Bracer - Greater Intellect",
+        "colors": [
+            255,
+            275,
+            295,
+            315
+        ],
+        "reagents": [
+            {
+                "itemId": 16202,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            16214
+        ]
+    },
+    {
+        "spellId": 20009,
+        "name": "Enchant Bracer - Superior Spirit",
+        "colors": [
+            270,
+            290,
+            310,
+            330
+        ],
+        "reagents": [
+            {
+                "itemId": 16202,
+                "amount": 3
+            },
+            {
+                "itemId": 11176,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            16218
+        ]
+    },
+    {
+        "spellId": 20010,
+        "name": "Enchant Bracer - Superior Strength",
+        "colors": [
+            295,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16204,
+                "amount": 6
+            },
+            {
+                "itemId": 16203,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            16246
+        ]
+    },
+    {
+        "spellId": 20011,
+        "name": "Enchant Bracer - Superior Stamina",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16204,
+                "amount": 15
+            }
+        ],
+        "recipes": [
+            16251
+        ]
+    },
+    {
+        "spellId": 20012,
+        "name": "Enchant Gloves - Greater Agility",
+        "colors": [
+            270,
+            290,
+            310,
+            330
+        ],
+        "reagents": [
+            {
+                "itemId": 16202,
+                "amount": 3
+            },
+            {
+                "itemId": 16204,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            16219
+        ]
+    },
+    {
+        "spellId": 20013,
+        "name": "Enchant Gloves - Greater Strength",
+        "colors": [
+            295,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16203,
+                "amount": 4
+            },
+            {
+                "itemId": 16204,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            16244
+        ]
+    },
+    {
+        "spellId": 20014,
+        "name": "Enchant Cloak - Greater Resistance",
+        "colors": [
+            265,
+            285,
+            305,
+            325
+        ],
+        "reagents": [
+            {
+                "itemId": 16202,
+                "amount": 2
+            },
+            {
+                "itemId": 7077,
+                "amount": 1
+            },
+            {
+                "itemId": 7075,
+                "amount": 1
+            },
+            {
+                "itemId": 7079,
+                "amount": 1
+            },
+            {
+                "itemId": 7081,
+                "amount": 1
+            },
+            {
+                "itemId": 7972,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            16216
+        ]
+    },
+    {
+        "spellId": 20015,
+        "name": "Enchant Cloak - Superior Defense",
+        "colors": [
+            285,
+            300,
+            317,
+            335
+        ],
+        "reagents": [
+            {
+                "itemId": 16204,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            16224
+        ]
+    },
+    {
+        "spellId": 20016,
+        "name": "Enchant Shield - Superior Spirit",
+        "colors": [
+            280,
+            300,
+            320,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16203,
+                "amount": 2
+            },
+            {
+                "itemId": 16204,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            16222
+        ]
+    },
+    {
+        "spellId": 20017,
+        "name": "Enchant Shield - Greater Stamina",
+        "colors": [
+            265,
+            285,
+            305,
+            325
+        ],
+        "reagents": [
+            {
+                "itemId": 11176,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            16217
+        ]
+    },
+    {
+        "spellId": 20020,
+        "name": "Enchant Boots - Greater Stamina",
+        "colors": [
+            260,
+            280,
+            300,
+            320
+        ],
+        "reagents": [
+            {
+                "itemId": 11176,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            16215
+        ]
+    },
+    {
+        "spellId": 20023,
+        "name": "Enchant Boots - Greater Agility",
+        "colors": [
+            295,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16203,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            16245
+        ]
+    },
+    {
+        "spellId": 20024,
+        "name": "Enchant Boots - Spirit",
+        "colors": [
+            275,
+            295,
+            315,
+            335
+        ],
+        "reagents": [
+            {
+                "itemId": 16203,
+                "amount": 2
+            },
+            {
+                "itemId": 16202,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            16220
+        ]
+    },
+    {
+        "spellId": 20025,
+        "name": "Enchant Chest - Greater Stats",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 4
+            },
+            {
+                "itemId": 16204,
+                "amount": 15
+            },
+            {
+                "itemId": 16203,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            16253
+        ]
+    },
+    {
+        "spellId": 20026,
+        "name": "Enchant Chest - Major Health",
+        "colors": [
+            275,
+            295,
+            315,
+            335
+        ],
+        "reagents": [
+            {
+                "itemId": 16204,
+                "amount": 6
+            },
+            {
+                "itemId": 14343,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            16221
+        ]
+    },
+    {
+        "spellId": 20028,
+        "name": "Enchant Chest - Major Mana",
+        "colors": [
+            290,
+            305,
+            322,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16203,
+                "amount": 3
+            },
+            {
+                "itemId": 14343,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            16242
+        ]
+    },
+    {
+        "spellId": 20029,
+        "name": "Enchant Weapon - Icy Chill",
+        "colors": [
+            285,
+            300,
+            317,
+            335
+        ],
+        "reagents": [
+            {
+                "itemId": 14343,
+                "amount": 4
+            },
+            {
+                "itemId": 7080,
+                "amount": 1
+            },
+            {
+                "itemId": 7082,
+                "amount": 1
+            },
+            {
+                "itemId": 13467,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            16223
+        ]
+    },
+    {
+        "spellId": 20030,
+        "name": "Enchant 2H Weapon - Superior Impact",
+        "colors": [
+            295,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 4
+            },
+            {
+                "itemId": 16204,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            16247
+        ]
+    },
+    {
+        "spellId": 20031,
+        "name": "Enchant Weapon - Superior Striking",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 2
+            },
+            {
+                "itemId": 16203,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            16250
+        ]
+    },
+    {
+        "spellId": 20032,
+        "name": "Enchant Weapon - Lifestealing",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 6
+            },
+            {
+                "itemId": 12808,
+                "amount": 6
+            },
+            {
+                "itemId": 12803,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            16254
+        ]
+    },
+    {
+        "spellId": 20033,
+        "name": "Enchant Weapon - Unholy Weapon",
+        "colors": [
+            295,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 4
+            },
+            {
+                "itemId": 12808,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            16248
+        ]
+    },
+    {
+        "spellId": 20034,
+        "name": "Enchant Weapon - Crusader",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 4
+            },
+            {
+                "itemId": 12811,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            16252
+        ]
+    },
+    {
+        "spellId": 20035,
+        "name": "Enchant 2H Weapon - Major Spirit",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16203,
+                "amount": 12
+            },
+            {
+                "itemId": 14344,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            16255
+        ]
+    },
+    {
+        "spellId": 20036,
+        "name": "Enchant 2H Weapon - Major Intellect",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16203,
+                "amount": 12
+            },
+            {
+                "itemId": 14344,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            16249
+        ]
+    },
+    {
+        "spellId": 20051,
+        "name": "Runed Arcanite Rod",
+        "colors": [
+            290,
+            305,
+            322,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16206,
+                "amount": 1
+            },
+            {
+                "itemId": 13926,
+                "amount": 1
+            },
+            {
+                "itemId": 16204,
+                "amount": 10
+            },
+            {
+                "itemId": 16203,
+                "amount": 4
+            },
+            {
+                "itemId": 11145,
+                "amount": 1
+            },
+            {
+                "itemId": 14344,
+                "amount": 2
+            }
+        ],
+        "creates": [
+            16207,
+            1,
+            1
+        ],
+        "recipes": [
+            16243
+        ]
+    },
+    {
+        "spellId": 21931,
+        "name": "Enchant Weapon - Winter's Might",
+        "colors": [
+            190,
+            210,
+            230,
+            250
+        ],
+        "reagents": [
+            {
+                "itemId": 11135,
+                "amount": 3
+            },
+            {
+                "itemId": 11137,
+                "amount": 3
+            },
+            {
+                "itemId": 11139,
+                "amount": 1
+            },
+            {
+                "itemId": 3819,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            17725
+        ]
+    },
+    {
+        "spellId": 22749,
+        "name": "Enchant Weapon - Spell Power",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 4
+            },
+            {
+                "itemId": 16203,
+                "amount": 12
+            },
+            {
+                "itemId": 7078,
+                "amount": 4
+            },
+            {
+                "itemId": 7080,
+                "amount": 4
+            },
+            {
+                "itemId": 7082,
+                "amount": 4
+            },
+            {
+                "itemId": 13926,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            18259
+        ]
+    },
+    {
+        "spellId": 22750,
+        "name": "Enchant Weapon - Healing Power",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 4
+            },
+            {
+                "itemId": 16203,
+                "amount": 8
+            },
+            {
+                "itemId": 12803,
+                "amount": 6
+            },
+            {
+                "itemId": 7080,
+                "amount": 6
+            },
+            {
+                "itemId": 12811,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            18260
+        ]
+    },
+    {
+        "spellId": 23799,
+        "name": "Enchant Weapon - Strength",
+        "colors": [
+            290,
+            305,
+            322,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 6
+            },
+            {
+                "itemId": 16203,
+                "amount": 6
+            },
+            {
+                "itemId": 16204,
+                "amount": 4
+            },
+            {
+                "itemId": 7076,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            19444
+        ]
+    },
+    {
+        "spellId": 23800,
+        "name": "Enchant Weapon - Agility",
+        "colors": [
+            290,
+            305,
+            322,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 6
+            },
+            {
+                "itemId": 16203,
+                "amount": 6
+            },
+            {
+                "itemId": 16204,
+                "amount": 4
+            },
+            {
+                "itemId": 7082,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            19445
+        ]
+    },
+    {
+        "spellId": 23801,
+        "name": "Enchant Bracer - Mana Regeneration",
+        "colors": [
+            290,
+            305,
+            322,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 16204,
+                "amount": 16
+            },
+            {
+                "itemId": 16203,
+                "amount": 4
+            },
+            {
+                "itemId": 7080,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            19446
+        ]
+    },
+    {
+        "spellId": 23802,
+        "name": "Enchant Bracer - Healing Power",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 2
+            },
+            {
+                "itemId": 16204,
+                "amount": 20
+            },
+            {
+                "itemId": 16203,
+                "amount": 4
+            },
+            {
+                "itemId": 12803,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            19447
+        ]
+    },
+    {
+        "spellId": 23803,
+        "name": "Enchant Weapon - Mighty Spirit",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 10
+            },
+            {
+                "itemId": 16203,
+                "amount": 8
+            },
+            {
+                "itemId": 16204,
+                "amount": 15
+            }
+        ],
+        "recipes": [
+            19448
+        ]
+    },
+    {
+        "spellId": 23804,
+        "name": "Enchant Weapon - Mighty Intellect",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 15
+            },
+            {
+                "itemId": 16203,
+                "amount": 12
+            },
+            {
+                "itemId": 16204,
+                "amount": 20
+            }
+        ],
+        "recipes": [
+            19449
+        ]
+    },
+    {
+        "spellId": 25072,
+        "name": "Enchant Gloves - Threat",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 22448,
+                "amount": 4
+            },
+            {
+                "itemId": 22446,
+                "amount": 2
+            },
+            {
+                "itemId": 21886,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            20726,
+            33153
+        ]
+    },
+    {
+        "spellId": 25073,
+        "name": "Enchant Gloves - Shadow Power",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 20725,
+                "amount": 3
+            },
+            {
+                "itemId": 14344,
+                "amount": 10
+            },
+            {
+                "itemId": 12808,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            20727
+        ]
+    },
+    {
+        "spellId": 25074,
+        "name": "Enchant Gloves - Frost Power",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 20725,
+                "amount": 3
+            },
+            {
+                "itemId": 14344,
+                "amount": 10
+            },
+            {
+                "itemId": 7080,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            20728
+        ]
+    },
+    {
+        "spellId": 25078,
+        "name": "Enchant Gloves - Fire Power",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 20725,
+                "amount": 2
+            },
+            {
+                "itemId": 14344,
+                "amount": 10
+            },
+            {
+                "itemId": 7078,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            20729
+        ]
+    },
+    {
+        "spellId": 25079,
+        "name": "Enchant Gloves - Healing Power",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 20725,
+                "amount": 3
+            },
+            {
+                "itemId": 14344,
+                "amount": 8
+            },
+            {
+                "itemId": 12811,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            20730
+        ]
+    },
+    {
+        "spellId": 25080,
+        "name": "Enchant Gloves - Superior Agility",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 22448,
+                "amount": 3
+            },
+            {
+                "itemId": 22446,
+                "amount": 3
+            },
+            {
+                "itemId": 22451,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            20731,
+            33152
+        ]
+    },
+    {
+        "spellId": 25081,
+        "name": "Enchant Cloak - Greater Fire Resistance",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 22448,
+                "amount": 3
+            },
+            {
+                "itemId": 22446,
+                "amount": 3
+            },
+            {
+                "itemId": 7078,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            20732
+        ]
+    },
+    {
+        "spellId": 25082,
+        "name": "Enchant Cloak - Greater Nature Resistance",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 22448,
+                "amount": 2
+            },
+            {
+                "itemId": 22446,
+                "amount": 3
+            },
+            {
+                "itemId": 12803,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            20733
+        ]
+    },
+    {
+        "spellId": 25083,
+        "name": "Enchant Cloak - Stealth",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 22448,
+                "amount": 3
+            },
+            {
+                "itemId": 22446,
+                "amount": 3
+            },
+            {
+                "itemId": 22794,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            20734,
+            33149
+        ]
+    },
+    {
+        "spellId": 25084,
+        "name": "Enchant Cloak - Subtlety",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 22448,
+                "amount": 4
+            },
+            {
+                "itemId": 22446,
+                "amount": 2
+            },
+            {
+                "itemId": 22456,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            20735,
+            33150,
+            33151
+        ]
+    },
+    {
+        "spellId": 25086,
+        "name": "Enchant Cloak - Dodge",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 22448,
+                "amount": 3
+            },
+            {
+                "itemId": 22446,
+                "amount": 3
+            },
+            {
+                "itemId": 22452,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            20736,
+            33148
+        ]
+    },
+    {
+        "spellId": 25124,
+        "name": "Minor Wizard Oil",
+        "colors": [
+            45,
+            55,
+            65,
+            75
+        ],
+        "reagents": [
+            {
+                "itemId": 10940,
+                "amount": 2
+            },
+            {
+                "itemId": 17034,
+                "amount": 1
+            },
+            {
+                "itemId": 3371,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            20744,
+            0,
+            0
+        ],
+        "recipes": [
+            20758
+        ]
+    },
+    {
+        "spellId": 25125,
+        "name": "Minor Mana Oil",
+        "colors": [
+            150,
+            160,
+            170,
+            180
+        ],
+        "reagents": [
+            {
+                "itemId": 11083,
+                "amount": 3
+            },
+            {
+                "itemId": 17034,
+                "amount": 2
+            },
+            {
+                "itemId": 3372,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            20745,
+            0,
+            0
+        ],
+        "recipes": [
+            20752
+        ]
+    },
+    {
+        "spellId": 25126,
+        "name": "Lesser Wizard Oil",
+        "colors": [
+            200,
+            210,
+            220,
+            230
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 3
+            },
+            {
+                "itemId": 17035,
+                "amount": 2
+            },
+            {
+                "itemId": 3372,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            20746,
+            0,
+            0
+        ],
+        "recipes": [
+            20753
+        ]
+    },
+    {
+        "spellId": 25127,
+        "name": "Lesser Mana Oil",
+        "colors": [
+            250,
+            260,
+            270,
+            280
+        ],
+        "reagents": [
+            {
+                "itemId": 11176,
+                "amount": 3
+            },
+            {
+                "itemId": 8831,
+                "amount": 2
+            },
+            {
+                "itemId": 8925,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            20747,
+            0,
+            0
+        ],
+        "recipes": [
+            20754
+        ]
+    },
+    {
+        "spellId": 25128,
+        "name": "Wizard Oil",
+        "colors": [
+            275,
+            285,
+            295,
+            305
+        ],
+        "reagents": [
+            {
+                "itemId": 16204,
+                "amount": 3
+            },
+            {
+                "itemId": 4625,
+                "amount": 2
+            },
+            {
+                "itemId": 8925,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            20750,
+            0,
+            0
+        ],
+        "recipes": [
+            20755
+        ]
+    },
+    {
+        "spellId": 25129,
+        "name": "Brilliant Wizard Oil",
+        "colors": [
+            300,
+            310,
+            320,
+            330
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 2
+            },
+            {
+                "itemId": 4625,
+                "amount": 3
+            },
+            {
+                "itemId": 18256,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            20749,
+            0,
+            0
+        ],
+        "recipes": [
+            20756
+        ]
+    },
+    {
+        "spellId": 25130,
+        "name": "Brilliant Mana Oil",
+        "colors": [
+            300,
+            310,
+            320,
+            330
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 2
+            },
+            {
+                "itemId": 8831,
+                "amount": 3
+            },
+            {
+                "itemId": 18256,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            20748,
+            0,
+            0
+        ],
+        "recipes": [
+            20757
+        ]
+    },
+    {
+        "spellId": 27837,
+        "name": "Enchant 2H Weapon - Agility",
+        "colors": [
+            290,
+            305,
+            322,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 14344,
+                "amount": 10
+            },
+            {
+                "itemId": 16203,
+                "amount": 6
+            },
+            {
+                "itemId": 16204,
+                "amount": 14
+            },
+            {
+                "itemId": 7082,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            22392
+        ]
+    },
+    {
+        "spellId": 27899,
+        "name": "Enchant Bracer - Brawn",
+        "colors": [
+            305,
+            315,
+            330,
+            345
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 6
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 27905,
+        "name": "Enchant Bracer - Stats",
+        "colors": [
+            315,
+            325,
+            340,
+            355
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 6
+            },
+            {
+                "itemId": 22447,
+                "amount": 6
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 27906,
+        "name": "Enchant Bracer - Major Defense",
+        "colors": [
+            320,
+            330,
+            345,
+            360
+        ],
+        "reagents": [
+            {
+                "itemId": 22448,
+                "amount": 2
+            },
+            {
+                "itemId": 22445,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            22530
+        ]
+    },
+    {
+        "spellId": 27911,
+        "name": "Enchant Bracer - Superior Healing",
+        "colors": [
+            325,
+            335,
+            350,
+            365
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 4
+            },
+            {
+                "itemId": 21886,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            22531,
+            24000
+        ]
+    },
+    {
+        "spellId": 27913,
+        "name": "Enchant Bracer - Restore Mana Prime",
+        "colors": [
+            335,
+            345,
+            360,
+            375
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            22532
+        ]
+    },
+    {
+        "spellId": 27914,
+        "name": "Enchant Bracer - Fortitude",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 1
+            },
+            {
+                "itemId": 22446,
+                "amount": 10
+            },
+            {
+                "itemId": 22445,
+                "amount": 20
+            }
+        ],
+        "recipes": [
+            22533
+        ]
+    },
+    {
+        "spellId": 27917,
+        "name": "Enchant Bracer - Spellpower",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 6
+            },
+            {
+                "itemId": 21884,
+                "amount": 6
+            },
+            {
+                "itemId": 21885,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            22534
+        ]
+    },
+    {
+        "spellId": 27920,
+        "name": "Enchant Ring - Striking",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 2
+            },
+            {
+                "itemId": 22445,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            22535
+        ]
+    },
+    {
+        "spellId": 27924,
+        "name": "Enchant Ring - Spellpower",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 2
+            },
+            {
+                "itemId": 22446,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            22536
+        ]
+    },
+    {
+        "spellId": 27926,
+        "name": "Enchant Ring - Healing Power",
+        "colors": [
+            370,
+            380,
+            395,
+            410
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 2
+            },
+            {
+                "itemId": 22446,
+                "amount": 3
+            },
+            {
+                "itemId": 22445,
+                "amount": 5
+            }
+        ],
+        "recipes": [
+            22537
+        ]
+    },
+    {
+        "spellId": 27927,
+        "name": "Enchant Ring - Stats",
+        "colors": [
+            375,
+            385,
+            400,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 22450,
+                "amount": 2
+            },
+            {
+                "itemId": 22449,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            22538,
+            186683
+        ]
+    },
+    {
+        "spellId": 27944,
+        "name": "Enchant Shield - Tough Shield",
+        "colors": [
+            310,
+            320,
+            335,
+            350
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 6
+            },
+            {
+                "itemId": 22452,
+                "amount": 10
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 27945,
+        "name": "Enchant Shield - Intellect",
+        "colors": [
+            325,
+            335,
+            350,
+            365
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            22539
+        ]
+    },
+    {
+        "spellId": 27946,
+        "name": "Enchant Shield - Shield Block",
+        "colors": [
+            340,
+            350,
+            365,
+            380
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 12
+            },
+            {
+                "itemId": 22446,
+                "amount": 4
+            },
+            {
+                "itemId": 22452,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            22540
+        ]
+    },
+    {
+        "spellId": 27947,
+        "name": "Enchant Shield - Resistance",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 2
+            },
+            {
+                "itemId": 22573,
+                "amount": 1
+            },
+            {
+                "itemId": 22574,
+                "amount": 1
+            },
+            {
+                "itemId": 22572,
+                "amount": 1
+            },
+            {
+                "itemId": 22578,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            22541
+        ]
+    },
+    {
+        "spellId": 27948,
+        "name": "Enchant Boots - Vitality",
+        "colors": [
+            305,
+            315,
+            330,
+            345
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 6
+            },
+            {
+                "itemId": 13446,
+                "amount": 4
+            },
+            {
+                "itemId": 13444,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            22542,
+            35298
+        ]
+    },
+    {
+        "spellId": 27950,
+        "name": "Enchant Boots - Fortitude",
+        "colors": [
+            320,
+            330,
+            345,
+            360
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 12
+            }
+        ],
+        "recipes": [
+            22543
+        ]
+    },
+    {
+        "spellId": 27951,
+        "name": "Enchant Boots - Dexterity",
+        "colors": [
+            340,
+            350,
+            365,
+            380
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 8
+            },
+            {
+                "itemId": 22445,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            22544
+        ]
+    },
+    {
+        "spellId": 27954,
+        "name": "Enchant Boots - Surefooted",
+        "colors": [
+            370,
+            380,
+            395,
+            410
+        ],
+        "reagents": [
+            {
+                "itemId": 22450,
+                "amount": 2
+            },
+            {
+                "itemId": 22449,
+                "amount": 4
+            },
+            {
+                "itemId": 23572,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            22545
+        ]
+    },
+    {
+        "spellId": 27957,
+        "name": "Enchant Chest - Exceptional Health",
+        "colors": [
+            315,
+            325,
+            340,
+            355
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 8
+            },
+            {
+                "itemId": 13446,
+                "amount": 4
+            },
+            {
+                "itemId": 14344,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 27958,
+        "name": "Enchant Chest - Exceptional Mana",
+        "colors": [
+            325,
+            335,
+            350,
+            365
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 1
+            },
+            {
+                "itemId": 13444,
+                "amount": 4
+            },
+            {
+                "itemId": 22446,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            22546
+        ]
+    },
+    {
+        "spellId": 27960,
+        "name": "Enchant Chest - Exceptional Stats",
+        "colors": [
+            345,
+            355,
+            370,
+            385
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 4
+            },
+            {
+                "itemId": 22445,
+                "amount": 4
+            },
+            {
+                "itemId": 22446,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            22547,
+            24003
+        ]
+    },
+    {
+        "spellId": 27961,
+        "name": "Enchant Cloak - Major Armor",
+        "colors": [
+            310,
+            320,
+            335,
+            350
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 8
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 27962,
+        "name": "Enchant Cloak - Major Resistance",
+        "colors": [
+            330,
+            340,
+            355,
+            370
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 4
+            },
+            {
+                "itemId": 21884,
+                "amount": 4
+            },
+            {
+                "itemId": 22451,
+                "amount": 4
+            },
+            {
+                "itemId": 22452,
+                "amount": 4
+            },
+            {
+                "itemId": 21885,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            22548
+        ]
+    },
+    {
+        "spellId": 27967,
+        "name": "Enchant Weapon - Major Striking",
+        "colors": [
+            340,
+            350,
+            365,
+            380
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 2
+            },
+            {
+                "itemId": 22446,
+                "amount": 6
+            },
+            {
+                "itemId": 22445,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            22552
+        ]
+    },
+    {
+        "spellId": 27968,
+        "name": "Enchant Weapon - Major Intellect",
+        "colors": [
+            340,
+            350,
+            365,
+            380
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 2
+            },
+            {
+                "itemId": 22446,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            22551
+        ]
+    },
+    {
+        "spellId": 27971,
+        "name": "Enchant 2H Weapon - Savagery",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 4
+            },
+            {
+                "itemId": 22445,
+                "amount": 40
+            }
+        ],
+        "recipes": [
+            22554
+        ]
+    },
+    {
+        "spellId": 27972,
+        "name": "Enchant Weapon - Potency",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 4
+            },
+            {
+                "itemId": 22446,
+                "amount": 5
+            },
+            {
+                "itemId": 22445,
+                "amount": 20
+            }
+        ],
+        "recipes": [
+            22553
+        ]
+    },
+    {
+        "spellId": 27975,
+        "name": "Enchant Weapon - Major Spellpower",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 8
+            },
+            {
+                "itemId": 22446,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            22555
+        ]
+    },
+    {
+        "spellId": 27977,
+        "name": "Enchant 2H Weapon - Major Agility",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 8
+            },
+            {
+                "itemId": 22446,
+                "amount": 6
+            },
+            {
+                "itemId": 22445,
+                "amount": 20
+            }
+        ],
+        "recipes": [
+            22556
+        ]
+    },
+    {
+        "spellId": 27981,
+        "name": "Enchant Weapon - Sunfire",
+        "colors": [
+            375,
+            385,
+            400,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 22450,
+                "amount": 12
+            },
+            {
+                "itemId": 22449,
+                "amount": 10
+            },
+            {
+                "itemId": 22446,
+                "amount": 8
+            },
+            {
+                "itemId": 21884,
+                "amount": 6
+            },
+            {
+                "itemId": 23571,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            22560
+        ]
+    },
+    {
+        "spellId": 27982,
+        "name": "Enchant Weapon - Soulfrost",
+        "colors": [
+            375,
+            385,
+            400,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 22450,
+                "amount": 12
+            },
+            {
+                "itemId": 22449,
+                "amount": 10
+            },
+            {
+                "itemId": 22446,
+                "amount": 8
+            },
+            {
+                "itemId": 21885,
+                "amount": 6
+            },
+            {
+                "itemId": 22456,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            22561
+        ]
+    },
+    {
+        "spellId": 27984,
+        "name": "Enchant Weapon - Mongoose",
+        "colors": [
+            375,
+            385,
+            400,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 22450,
+                "amount": 6
+            },
+            {
+                "itemId": 22449,
+                "amount": 10
+            },
+            {
+                "itemId": 22446,
+                "amount": 8
+            },
+            {
+                "itemId": 22445,
+                "amount": 40
+            }
+        ],
+        "recipes": [
+            22559
+        ]
+    },
+    {
+        "spellId": 28003,
+        "name": "Enchant Weapon - Spellsurge",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 12
+            },
+            {
+                "itemId": 22446,
+                "amount": 10
+            },
+            {
+                "itemId": 22445,
+                "amount": 20
+            }
+        ],
+        "recipes": [
+            22558
+        ]
+    },
+    {
+        "spellId": 28004,
+        "name": "Enchant Weapon - Battlemaster",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22450,
+                "amount": 8
+            },
+            {
+                "itemId": 22449,
+                "amount": 8
+            },
+            {
+                "itemId": 21885,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            22557
+        ]
+    },
+    {
+        "spellId": 28016,
+        "name": "Superior Mana Oil",
+        "colors": [
+            310,
+            310,
+            320,
+            330
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 3
+            },
+            {
+                "itemId": 22791,
+                "amount": 1
+            },
+            {
+                "itemId": 18256,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            22521,
+            0,
+            0
+        ],
+        "recipes": [
+            22562
+        ]
+    },
+    {
+        "spellId": 28019,
+        "name": "Superior Wizard Oil",
+        "colors": [
+            340,
+            340,
+            350,
+            360
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 3
+            },
+            {
+                "itemId": 22792,
+                "amount": 1
+            },
+            {
+                "itemId": 18256,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            22522,
+            0,
+            0
+        ],
+        "recipes": [
+            22563
+        ]
+    },
+    {
+        "spellId": 28022,
+        "name": "Large Prismatic Shard",
+        "colors": [
+            0,
+            0,
+            0,
+            335
+        ],
+        "reagents": [
+            {
+                "itemId": 22448,
+                "amount": 3
+            }
+        ],
+        "creates": [
+            22449,
+            1,
+            1
+        ],
+        "recipes": [
+            22565
+        ]
+    },
+    {
+        "spellId": 28027,
+        "name": "Prismatic Sphere",
+        "colors": [
+            325,
+            325,
+            330,
+            335
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 4
+            }
+        ],
+        "creates": [
+            22460,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 28028,
+        "name": "Void Sphere",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 22450,
+                "amount": 2
+            }
+        ],
+        "creates": [
+            22459,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 32664,
+        "name": "Runed Fel Iron Rod",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 25843,
+                "amount": 1
+            },
+            {
+                "itemId": 16203,
+                "amount": 4
+            },
+            {
+                "itemId": 14344,
+                "amount": 6
+            },
+            {
+                "itemId": 16207,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            22461,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 32665,
+        "name": "Runed Adamantite Rod",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 25844,
+                "amount": 1
+            },
+            {
+                "itemId": 22446,
+                "amount": 8
+            },
+            {
+                "itemId": 22449,
+                "amount": 8
+            },
+            {
+                "itemId": 23571,
+                "amount": 1
+            },
+            {
+                "itemId": 22461,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            22462,
+            1,
+            1
+        ],
+        "recipes": [
+            25848
+        ]
+    },
+    {
+        "spellId": 32667,
+        "name": "Runed Eternium Rod",
+        "colors": [
+            0,
+            375,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 25845,
+                "amount": 1
+            },
+            {
+                "itemId": 22446,
+                "amount": 12
+            },
+            {
+                "itemId": 22450,
+                "amount": 2
+            },
+            {
+                "itemId": 23571,
+                "amount": 4
+            },
+            {
+                "itemId": 22462,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            22463,
+            1,
+            1
+        ],
+        "recipes": [
+            25849
+        ]
+    },
+    {
+        "spellId": 33990,
+        "name": "Enchant Chest - Major Spirit",
+        "colors": [
+            320,
+            330,
+            345,
+            360
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 33991,
+        "name": "Enchant Chest - Restore Mana Prime",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 22447,
+                "amount": 2
+            },
+            {
+                "itemId": 22445,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 33992,
+        "name": "Enchant Chest - Major Resilience",
+        "colors": [
+            345,
+            355,
+            370,
+            385
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 4
+            },
+            {
+                "itemId": 22445,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            28270
+        ]
+    },
+    {
+        "spellId": 33993,
+        "name": "Enchant Gloves - Blasting",
+        "colors": [
+            305,
+            315,
+            330,
+            345
+        ],
+        "reagents": [
+            {
+                "itemId": 22447,
+                "amount": 1
+            },
+            {
+                "itemId": 22445,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 33994,
+        "name": "Enchant Gloves - Spell Strike",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 8
+            },
+            {
+                "itemId": 22445,
+                "amount": 2
+            },
+            {
+                "itemId": 22449,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            28271
+        ]
+    },
+    {
+        "spellId": 33995,
+        "name": "Enchant Gloves - Major Strength",
+        "colors": [
+            340,
+            350,
+            365,
+            380
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 12
+            },
+            {
+                "itemId": 22446,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 33996,
+        "name": "Enchant Gloves - Assault",
+        "colors": [
+            310,
+            320,
+            335,
+            350
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 8
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 33997,
+        "name": "Enchant Gloves - Major Spellpower",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 6
+            },
+            {
+                "itemId": 22449,
+                "amount": 6
+            },
+            {
+                "itemId": 22457,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            28272
+        ]
+    },
+    {
+        "spellId": 33999,
+        "name": "Enchant Gloves - Major Healing",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 6
+            },
+            {
+                "itemId": 22449,
+                "amount": 6
+            },
+            {
+                "itemId": 21886,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            28273
+        ]
+    },
+    {
+        "spellId": 34001,
+        "name": "Enchant Bracer - Major Intellect",
+        "colors": [
+            305,
+            315,
+            330,
+            345
+        ],
+        "reagents": [
+            {
+                "itemId": 22447,
+                "amount": 3
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 34002,
+        "name": "Enchant Bracer - Assault",
+        "colors": [
+            300,
+            310,
+            325,
+            340
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 6
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 34003,
+        "name": "Enchant Cloak - Spell Penetration",
+        "colors": [
+            325,
+            335,
+            350,
+            365
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 2
+            },
+            {
+                "itemId": 22445,
+                "amount": 6
+            },
+            {
+                "itemId": 22457,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            28274
+        ]
+    },
+    {
+        "spellId": 34004,
+        "name": "Enchant Cloak - Greater Agility",
+        "colors": [
+            310,
+            320,
+            335,
+            350
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 1
+            },
+            {
+                "itemId": 22445,
+                "amount": 4
+            },
+            {
+                "itemId": 22451,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 34005,
+        "name": "Enchant Cloak - Greater Arcane Resistance",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 4
+            },
+            {
+                "itemId": 22457,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            28276
+        ]
+    },
+    {
+        "spellId": 34006,
+        "name": "Enchant Cloak - Greater Shadow Resistance",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 4
+            },
+            {
+                "itemId": 22456,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            28277
+        ]
+    },
+    {
+        "spellId": 34007,
+        "name": "Enchant Boots - Cat's Swiftness",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 8
+            },
+            {
+                "itemId": 22451,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            28279,
+            35299
+        ]
+    },
+    {
+        "spellId": 34008,
+        "name": "Enchant Boots - Boar's Speed",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 8
+            },
+            {
+                "itemId": 22452,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            28280,
+            35297
+        ]
+    },
+    {
+        "spellId": 34009,
+        "name": "Enchant Shield - Major Stamina",
+        "colors": [
+            325,
+            335,
+            350,
+            365
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 15
+            }
+        ],
+        "recipes": [
+            28282
+        ]
+    },
+    {
+        "spellId": 34010,
+        "name": "Enchant Weapon - Major Healing",
+        "colors": [
+            350,
+            360,
+            375,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 8
+            },
+            {
+                "itemId": 21885,
+                "amount": 8
+            },
+            {
+                "itemId": 21886,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            28281
+        ]
+    },
+    {
+        "spellId": 42613,
+        "name": "Nexus Transformation",
+        "colors": [
+            0,
+            300,
+            300,
+            305
+        ],
+        "reagents": [
+            {
+                "itemId": 20725,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            22448,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 42615,
+        "name": "Small Prismatic Shard",
+        "colors": [
+            0,
+            0,
+            335,
+            335
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            22448,
+            3,
+            3
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 42620,
+        "name": "Enchant Weapon - Greater Agility",
+        "colors": [
+            350,
+            360,
+            367,
+            375
+        ],
+        "reagents": [
+            {
+                "itemId": 22445,
+                "amount": 8
+            },
+            {
+                "itemId": 22446,
+                "amount": 4
+            },
+            {
+                "itemId": 22449,
+                "amount": 6
+            },
+            {
+                "itemId": 22451,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            33165
+        ]
+    },
+    {
+        "spellId": 42974,
+        "name": "Enchant Weapon - Executioner",
+        "colors": [
+            375,
+            385,
+            400,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 22450,
+                "amount": 6
+            },
+            {
+                "itemId": 22449,
+                "amount": 10
+            },
+            {
+                "itemId": 22446,
+                "amount": 6
+            },
+            {
+                "itemId": 22445,
+                "amount": 30
+            },
+            {
+                "itemId": 22824,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            33307
+        ]
+    },
+    {
+        "spellId": 44383,
+        "name": "Enchant Shield - Resilience",
+        "colors": [
+            330,
+            340,
+            355,
+            370
+        ],
+        "reagents": [
+            {
+                "itemId": 22449,
+                "amount": 1
+            },
+            {
+                "itemId": 22447,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 45765,
+        "name": "Void Shatter",
+        "colors": [
+            0,
+            0,
+            0,
+            375
+        ],
+        "reagents": [
+            {
+                "itemId": 22450,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            22449,
+            2,
+            2
+        ],
+        "recipes": [
+            34872
+        ]
+    },
+    {
+        "spellId": 46578,
+        "name": "Enchant Weapon - Deathfrost",
+        "colors": [
+            350,
+            350,
+            357,
+            365
+        ],
+        "reagents": [
+            {
+                "itemId": 22456,
+                "amount": 2
+            },
+            {
+                "itemId": 21885,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            35498
+        ]
+    },
+    {
+        "spellId": 46594,
+        "name": "Enchant Chest - Defense",
+        "colors": [
+            360,
+            370,
+            385,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 4
+            },
+            {
+                "itemId": 22445,
+                "amount": 8
+            },
+            {
+                "itemId": 23427,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            35500
+        ]
+    },
+    {
+        "spellId": 47051,
+        "name": "Enchant Cloak - Steelweave",
+        "colors": [
+            375,
+            380,
+            395,
+            410
+        ],
+        "reagents": [
+            {
+                "itemId": 22446,
+                "amount": 8
+            },
+            {
+                "itemId": 22452,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            35756
+        ]
+    }
+]

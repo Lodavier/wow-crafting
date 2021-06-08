@@ -103,14 +103,23 @@ function itemDefault(results, item) {
   }
 }
 
-function itemPrice(results, item, overrides) {
+function itemPrice(results, item, overrides, stack = []) {
   const data = results[item];
   if (data.vendorPrice) {
     return data.vendorPrice;
   }
+
+  let recursion = false;
+  // for(const reagent in data.crafting){
+  //   if(stack.includes(reagent)){
+  //     recursion = true;
+  //     break;
+  //   }
+  // }
+
   const mode = overrides[item] || itemDefault(results, item);
-  if (mode === "crafting" && data.crafting) {
-    return craftingPrice(results, item, overrides) / data.amountCrafted;
+  if (!recursion && mode === "crafting" && data.crafting) {
+    return craftingPrice(results, item, overrides, stack) / data.amountCrafted;
   } else if (data.bindOnPickup) {
     return 0;
   } else {
@@ -118,8 +127,15 @@ function itemPrice(results, item, overrides) {
   }
 }
 
-function craftingPrice(results, item, overrides) {
-  return Object.entries(results[item].crafting).reduce((total, [name, quantity]) => total + itemPrice(results, name, overrides) * quantity, results[item].requiredMoney);
+function craftingPrice(results, item, overrides, stack = []) {
+  stack.push(item)
+
+  let total = results[item].requiredMoney
+  for(const reagent in results[item].crafting){
+    total += itemPrice(results, reagent, overrides, stack) * results[item].crafting[reagent]
+  }
+
+  return total
 }
 
 function profLabel(data) {
