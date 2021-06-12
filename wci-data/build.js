@@ -23,12 +23,17 @@ items.filter(i => i.createdBy).forEach(item => {
     createdBys.forEach(createdBy => {    
         let craftName = item.name
 
-        if(createdBy.category == "Alchemy" && createdBy.recipes.length > 0)
+        if(createdBy.category == "Alchemy")
         {
             const recipes = createdBy.recipes.map(rId => items.find(item => item.itemId == rId))
             const transmuteRecipe = recipes.find(recipe => recipe.name.includes("Transmute"))
             if(transmuteRecipe != undefined){
-                craftName = transmuteRecipe.name.substring(8)
+                const transmuteName = transmuteRecipe.name.substring(8)
+                craftName = `Transmute: ${transmuteName.substring(10)}`
+            }
+            else if(item.name.includes("Primal")){
+                const reagentName = items.find(i => i.itemId == createdBy.reagents[0].itemId).name
+                craftName = `Transmute: ${item.name} to ${reagentName.substring(7)}`
             }
         }
 

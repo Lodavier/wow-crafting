@@ -110,12 +110,12 @@ function itemPrice(results, item, overrides, stack = []) {
   }
 
   let recursion = false;
-  // for(const reagent in data.crafting){
-  //   if(stack.includes(reagent)){
-  //     recursion = true;
-  //     break;
-  //   }
-  // }
+  for(const reagent in data.crafting){
+    if(stack.includes(reagent)){
+      recursion = true;
+      break;
+    }
+  }
 
   const mode = overrides[item] || itemDefault(results, item);
   if (!recursion && mode === "crafting" && data.crafting) {

@@ -1438,7 +1438,7 @@
             "Gold Ore": 1
         }
     },
-    "Transmute Iron to Gold": {
+    "Transmute: Iron to Gold": {
         "id": 3577,
         "quality": 2,
         "category": "alchemy",
@@ -3838,7 +3838,7 @@
             "Truesilver Ore": 1
         }
     },
-    "Transmute Mithril to Truesilver": {
+    "Transmute: Mithril to Truesilver": {
         "id": 6037,
         "quality": 2,
         "category": "alchemy",
@@ -4506,7 +4506,7 @@
         "id": 7077,
         "quality": 1
     },
-    "Transmute Elemental Fire": {
+    "Transmute: Elemental Fire": {
         "id": 7068,
         "quality": 1,
         "category": "alchemy",
@@ -4555,7 +4555,7 @@
         "id": 7078,
         "quality": 2
     },
-    "Transmute Fire to Earth": {
+    "Transmute: Fire to Earth": {
         "id": 7076,
         "quality": 2,
         "category": "alchemy",
@@ -4567,7 +4567,7 @@
         "id": 12803,
         "quality": 2
     },
-    "Transmute Life to Earth": {
+    "Transmute: Life to Earth": {
         "id": 7076,
         "quality": 2,
         "category": "alchemy",
@@ -4624,7 +4624,7 @@
         "id": 7076,
         "quality": 2
     },
-    "Transmute Earth to Water": {
+    "Transmute: Earth to Water": {
         "id": 7080,
         "quality": 2,
         "category": "alchemy",
@@ -4636,7 +4636,7 @@
         "id": 12808,
         "quality": 2
     },
-    "Transmute Undeath to Water": {
+    "Transmute: Undeath to Water": {
         "id": 7080,
         "quality": 2,
         "category": "alchemy",
@@ -4667,7 +4667,7 @@
         "id": 7082,
         "quality": 2
     },
-    "Transmute Air to Fire": {
+    "Transmute: Air to Fire": {
         "id": 7078,
         "quality": 2,
         "category": "alchemy",
@@ -4679,7 +4679,7 @@
         "id": 7080,
         "quality": 2
     },
-    "Transmute Water to Air": {
+    "Transmute: Water to Air": {
         "id": 7082,
         "quality": 2,
         "category": "alchemy",
@@ -7500,7 +7500,7 @@
         "id": 12363,
         "quality": 2
     },
-    "Transmute Arcanite": {
+    "Transmute: Arcanite": {
         "id": 12360,
         "quality": 2,
         "category": "alchemy",
@@ -8180,7 +8180,7 @@
             "Enchanted Leather": 4
         }
     },
-    "Transmute Earth to Life": {
+    "Transmute: Earth to Life": {
         "id": 12803,
         "quality": 2,
         "category": "alchemy",
@@ -8188,7 +8188,7 @@
             "Essence of Earth": 1
         }
     },
-    "Transmute Water to Undeath": {
+    "Transmute: Water to Undeath": {
         "id": 12808,
         "quality": 2,
         "category": "alchemy",
@@ -12529,11 +12529,7 @@
     },
     "Primal Fire": {
         "id": 21884,
-        "quality": 2,
-        "category": "alchemy",
-        "reagents": {
-            "Primal Mana": 1
-        }
+        "quality": 2
     },
     "Spellfire Gloves": {
         "id": 21847,
@@ -12547,19 +12543,11 @@
     },
     "Primal Life": {
         "id": 21886,
-        "quality": 2,
-        "category": "alchemy",
-        "reagents": {
-            "Primal Earth": 1
-        }
+        "quality": 2
     },
     "Primal Water": {
         "id": 21885,
-        "quality": 2,
-        "category": "alchemy",
-        "reagents": {
-            "Primal Shadow": 1
-        }
+        "quality": 2
     },
     "Primal Mooncloth": {
         "id": 21845,
@@ -12785,11 +12773,7 @@
     },
     "Primal Mana": {
         "id": 22457,
-        "quality": 2,
-        "category": "alchemy",
-        "reagents": {
-            "Primal Fire": 1
-        }
+        "quality": 2
     },
     "Primal Mooncloth Robe": {
         "id": 21875,
@@ -12864,12 +12848,20 @@
         "id": 22451,
         "quality": 2
     },
-    "Transmute Primal Air to Fire": {
+    "Transmute: Primal Air to Fire": {
         "id": 21884,
         "quality": 2,
         "category": "alchemy",
         "reagents": {
             "Primal Air": 1
+        }
+    },
+    "Transmute: Primal Fire to Mana": {
+        "id": 21884,
+        "quality": 2,
+        "category": "alchemy",
+        "reagents": {
+            "Primal Mana": 1
         }
     },
     "Knothide Leather Scraps": {
@@ -12887,13 +12879,9 @@
     },
     "Primal Earth": {
         "id": 22452,
-        "quality": 2,
-        "category": "alchemy",
-        "reagents": {
-            "Primal Life": 1
-        }
+        "quality": 2
     },
-    "Transmute Primal Earth to Water": {
+    "Transmute: Primal Earth to Water": {
         "id": 21885,
         "quality": 2,
         "category": "alchemy",
@@ -12903,10 +12891,22 @@
     },
     "Primal Shadow": {
         "id": 22456,
+        "quality": 2
+    },
+    "Transmute: Primal Water to Shadow": {
+        "id": 21885,
         "quality": 2,
         "category": "alchemy",
         "reagents": {
-            "Primal Water": 1
+            "Primal Shadow": 1
+        }
+    },
+    "Transmute: Primal Life to Earth": {
+        "id": 21886,
+        "quality": 2,
+        "category": "alchemy",
+        "reagents": {
+            "Primal Earth": 1
         }
     },
     "Woven Copper Ring": {
@@ -13136,7 +13136,15 @@
             "Skin of Shadow": 2
         }
     },
-    "Transmute Primal Water to Air": {
+    "Transmute: Primal Mana to Fire": {
+        "id": 22457,
+        "quality": 2,
+        "category": "alchemy",
+        "reagents": {
+            "Primal Fire": 1
+        }
+    },
+    "Transmute: Primal Water to Air": {
         "id": 22451,
         "quality": 2,
         "category": "alchemy",
@@ -13144,12 +13152,28 @@
             "Primal Water": 1
         }
     },
-    "Transmute Primal Fire to Earth": {
+    "Transmute: Primal Shadow to Water": {
+        "id": 22456,
+        "quality": 2,
+        "category": "alchemy",
+        "reagents": {
+            "Primal Water": 1
+        }
+    },
+    "Transmute: Primal Fire to Earth": {
         "id": 22452,
         "quality": 2,
         "category": "alchemy",
         "reagents": {
             "Primal Fire": 1
+        }
+    },
+    "Transmute: Primal Earth to Life": {
+        "id": 22452,
+        "quality": 2,
+        "category": "alchemy",
+        "reagents": {
+            "Primal Life": 1
         }
     },
     "Mote of Earth": {
@@ -14705,7 +14729,7 @@
             "Adamantite Bar": 1
         }
     },
-    "Transmute Primal Might": {
+    "Transmute: Primal Might": {
         "id": 23571,
         "quality": 3,
         "category": "alchemy",
@@ -16476,7 +16500,7 @@
             "Eternium Bar": 4
         }
     },
-    "Transmute Earthstorm Diamond": {
+    "Transmute: Earthstorm Diamond": {
         "id": 25867,
         "quality": 3,
         "category": "alchemy",
@@ -16488,7 +16512,7 @@
             "Primal Water": 2
         }
     },
-    "Transmute Skyfire Diamond": {
+    "Transmute: Skyfire Diamond": {
         "id": 25868,
         "quality": 3,
         "category": "alchemy",
