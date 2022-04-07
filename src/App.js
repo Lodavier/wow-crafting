@@ -120,7 +120,7 @@ function itemPrice(results, item, overrides, stack = []) {
   const mode = overrides[item] || itemDefault(results, item);
   if (!recursion && mode === "crafting" && data.crafting) {
     return craftingPrice(results, item, overrides, stack) / data.amountCrafted;
-  } else if (data.bindOnPickup) {
+  } else if (data.bindOnPickup && !data.marketValue) {
     return 0;
   } else {
     return data.marketValue || Infinity;
@@ -245,7 +245,7 @@ function ShoppingList({results, overrides, shopping, setShopping}) {
           const data = results[name];
           if (data.vendorPrice) {
             return [name, count, data.vendorPrice * count, 3];
-          } else if (data.bindOnPickup) {
+          } else if (data.bindOnPickup && !data.marketValue) {
             return [name, count, 0, 0];
           } else if (!data.marketValue) {
             return [name, count, Infinity, 1];
