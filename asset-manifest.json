@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wow-crafting/static/css/main.32d48baa.chunk.css",
-    "main.js": "/wow-crafting/static/js/main.02bc1c30.chunk.js",
-    "main.js.map": "/wow-crafting/static/js/main.02bc1c30.chunk.js.map",
+    "main.js": "/wow-crafting/static/js/main.a6c5acc4.chunk.js",
+    "main.js.map": "/wow-crafting/static/js/main.a6c5acc4.chunk.js.map",
     "runtime-main.js": "/wow-crafting/static/js/runtime-main.1a835eb7.js",
     "runtime-main.js.map": "/wow-crafting/static/js/runtime-main.1a835eb7.js.map",
     "static/js/2.4edc70cd.chunk.js": "/wow-crafting/static/js/2.4edc70cd.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.1a835eb7.js",
     "static/js/2.4edc70cd.chunk.js",
     "static/css/main.32d48baa.chunk.css",
-    "static/js/main.02bc1c30.chunk.js"
+    "static/js/main.a6c5acc4.chunk.js"
   ]
 }
