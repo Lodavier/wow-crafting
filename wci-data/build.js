@@ -3,7 +3,35 @@ const path = require('path')
 const Database = require('wow-classic-items')
 const util = require('util')
 
-const items = new Database.Items()
+// const items = new Database.Items()
+
+function load(options) {
+    let data = JSON.parse(fs.readFileSync(path.resolve(__dirname, './items.json')))
+    // let data = JSON.parse(fs.readFileSync(`${__dirname}/data/json/${fileName}.json`, 'utf8'))
+
+    const defaultOptions = {
+        iconSrc: 'blizzard'
+    }
+
+    const opts = { ...defaultOptions, ...options } // Merge options
+
+    // Parse icons to URL
+    if (opts.iconSrc === 'blizzard') {
+        data = data.map((x) => {
+        x.icon = `https://render-classic-us.worldofwarcraft.com/icons/56/${x.icon}.jpg`
+        return x
+        })
+    } else if (opts.iconSrc === 'wowhead') {
+        data = data.map((x) => {
+        x.icon = `https://wow.zamimg.com/images/wow/icons/large/${x.icon}.jpg`
+        return x
+        })
+    }
+
+    return new Array(...data)
+}
+// const items = JSON.parse(fs.readFileSync(path.resolve(__dirname, './items.json')))
+const items = load()
 
 const result = {}
 

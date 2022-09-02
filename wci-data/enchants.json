@@ -510,6 +510,10 @@
             }
         ],
         "recipes": [
+            36840,
+            36837,
+            36838,
+            36839,
             6377
         ]
     },
@@ -2091,12 +2095,8 @@
         ],
         "reagents": [
             {
-                "itemId": 11382,
-                "amount": 1
-            },
-            {
                 "itemId": 7078,
-                "amount": 1
+                "amount": 3
             },
             {
                 "itemId": 14343,
@@ -2109,7 +2109,8 @@
             1
         ],
         "recipes": [
-            11813
+            11813,
+            45050
         ]
     },
     {
@@ -2199,7 +2200,7 @@
             },
             {
                 "itemId": 11176,
-                "amount": 10
+                "amount": 4
             }
         ],
         "recipes": [
@@ -2222,7 +2223,7 @@
             },
             {
                 "itemId": 16203,
-                "amount": 6
+                "amount": 2
             }
         ],
         "recipes": [
@@ -2241,7 +2242,7 @@
         "reagents": [
             {
                 "itemId": 16204,
-                "amount": 15
+                "amount": 10
             }
         ],
         "recipes": [
@@ -2260,7 +2261,7 @@
         "reagents": [
             {
                 "itemId": 16202,
-                "amount": 3
+                "amount": 2
             },
             {
                 "itemId": 16204,
@@ -2282,7 +2283,7 @@
         ],
         "reagents": [
             {
-                "itemId": 16203,
+                "itemId": 16202,
                 "amount": 4
             },
             {
@@ -2304,10 +2305,6 @@
             325
         ],
         "reagents": [
-            {
-                "itemId": 16202,
-                "amount": 2
-            },
             {
                 "itemId": 7077,
                 "amount": 1
@@ -2354,7 +2351,7 @@
     },
     {
         "spellId": 20016,
-        "name": "Enchant Shield - Superior Spirit",
+        "name": "Enchant Shield - Vitality",
         "colors": [
             280,
             300,
@@ -2364,7 +2361,7 @@
         "reagents": [
             {
                 "itemId": 16203,
-                "amount": 2
+                "amount": 1
             },
             {
                 "itemId": 16204,
@@ -2387,7 +2384,7 @@
         "reagents": [
             {
                 "itemId": 11176,
-                "amount": 10
+                "amount": 5
             }
         ],
         "recipes": [
@@ -2406,7 +2403,7 @@
         "reagents": [
             {
                 "itemId": 11176,
-                "amount": 10
+                "amount": 5
             }
         ],
         "recipes": [
@@ -2424,8 +2421,12 @@
         ],
         "reagents": [
             {
-                "itemId": 16203,
-                "amount": 8
+                "itemId": 16202,
+                "amount": 2
+            },
+            {
+                "itemId": 8153,
+                "amount": 2
             }
         ],
         "recipes": [
@@ -2445,10 +2446,6 @@
             {
                 "itemId": 16203,
                 "amount": 2
-            },
-            {
-                "itemId": 16202,
-                "amount": 1
             }
         ],
         "recipes": [
@@ -2467,15 +2464,11 @@
         "reagents": [
             {
                 "itemId": 14344,
-                "amount": 4
+                "amount": 2
             },
             {
                 "itemId": 16204,
-                "amount": 15
-            },
-            {
-                "itemId": 16203,
-                "amount": 10
+                "amount": 6
             }
         ],
         "recipes": [
@@ -2493,12 +2486,8 @@
         ],
         "reagents": [
             {
-                "itemId": 16204,
-                "amount": 6
-            },
-            {
                 "itemId": 14343,
-                "amount": 1
+                "amount": 2
             }
         ],
         "recipes": [
@@ -2516,12 +2505,8 @@
         ],
         "reagents": [
             {
-                "itemId": 16203,
-                "amount": 3
-            },
-            {
-                "itemId": 14343,
-                "amount": 1
+                "itemId": 16204,
+                "amount": 8
             }
         ],
         "recipes": [
@@ -2598,7 +2583,7 @@
             },
             {
                 "itemId": 16203,
-                "amount": 10
+                "amount": 4
             }
         ],
         "recipes": [
@@ -2617,15 +2602,15 @@
         "reagents": [
             {
                 "itemId": 14344,
-                "amount": 6
+                "amount": 4
             },
             {
                 "itemId": 12808,
-                "amount": 6
+                "amount": 4
             },
             {
                 "itemId": 12803,
-                "amount": 6
+                "amount": 4
             }
         ],
         "recipes": [
@@ -2690,7 +2675,7 @@
         "reagents": [
             {
                 "itemId": 16203,
-                "amount": 12
+                "amount": 4
             },
             {
                 "itemId": 14344,
@@ -2713,7 +2698,7 @@
         "reagents": [
             {
                 "itemId": 16203,
-                "amount": 12
+                "amount": 4
             },
             {
                 "itemId": 14344,
@@ -2801,7 +2786,7 @@
     },
     {
         "spellId": 22749,
-        "name": "Enchant Weapon - Spell Power",
+        "name": "Enchant Weapon - Spellpower",
         "colors": [
             300,
             310,
@@ -2815,19 +2800,7 @@
             },
             {
                 "itemId": 16203,
-                "amount": 12
-            },
-            {
-                "itemId": 7078,
-                "amount": 4
-            },
-            {
-                "itemId": 7080,
-                "amount": 4
-            },
-            {
-                "itemId": 7082,
-                "amount": 4
+                "amount": 6
             },
             {
                 "itemId": 13926,
@@ -2854,19 +2827,11 @@
             },
             {
                 "itemId": 16203,
-                "amount": 8
-            },
-            {
-                "itemId": 12803,
-                "amount": 6
+                "amount": 4
             },
             {
                 "itemId": 7080,
-                "amount": 6
-            },
-            {
-                "itemId": 12811,
-                "amount": 1
+                "amount": 4
             }
         ],
         "recipes": [
@@ -2885,19 +2850,11 @@
         "reagents": [
             {
                 "itemId": 14344,
-                "amount": 6
-            },
-            {
-                "itemId": 16203,
-                "amount": 6
-            },
-            {
-                "itemId": 16204,
                 "amount": 4
             },
             {
                 "itemId": 7076,
-                "amount": 2
+                "amount": 4
             }
         ],
         "recipes": [
@@ -2916,19 +2873,11 @@
         "reagents": [
             {
                 "itemId": 14344,
-                "amount": 6
-            },
-            {
-                "itemId": 16203,
-                "amount": 6
-            },
-            {
-                "itemId": 16204,
                 "amount": 4
             },
             {
                 "itemId": 7082,
-                "amount": 2
+                "amount": 4
             }
         ],
         "recipes": [
@@ -2947,10 +2896,10 @@
         "reagents": [
             {
                 "itemId": 16204,
-                "amount": 16
+                "amount": 4
             },
             {
-                "itemId": 16203,
+                "itemId": 16202,
                 "amount": 4
             },
             {
@@ -2978,15 +2927,11 @@
             },
             {
                 "itemId": 16204,
-                "amount": 20
-            },
-            {
-                "itemId": 16203,
                 "amount": 4
             },
             {
-                "itemId": 12803,
-                "amount": 6
+                "itemId": 16202,
+                "amount": 4
             }
         ],
         "recipes": [
@@ -3005,15 +2950,15 @@
         "reagents": [
             {
                 "itemId": 14344,
-                "amount": 10
+                "amount": 6
             },
             {
                 "itemId": 16203,
-                "amount": 8
+                "amount": 4
             },
             {
                 "itemId": 16204,
-                "amount": 15
+                "amount": 12
             }
         ],
         "recipes": [
@@ -3032,11 +2977,11 @@
         "reagents": [
             {
                 "itemId": 14344,
-                "amount": 15
+                "amount": 6
             },
             {
                 "itemId": 16203,
-                "amount": 12
+                "amount": 5
             },
             {
                 "itemId": 16204,
@@ -3086,7 +3031,7 @@
         ],
         "reagents": [
             {
-                "itemId": 20725,
+                "itemId": 22448,
                 "amount": 3
             },
             {
@@ -3113,7 +3058,7 @@
         ],
         "reagents": [
             {
-                "itemId": 20725,
+                "itemId": 22448,
                 "amount": 3
             },
             {
@@ -3140,7 +3085,7 @@
         ],
         "reagents": [
             {
-                "itemId": 20725,
+                "itemId": 22448,
                 "amount": 2
             },
             {
@@ -3167,7 +3112,7 @@
         ],
         "reagents": [
             {
-                "itemId": 20725,
+                "itemId": 22448,
                 "amount": 3
             },
             {
@@ -3586,15 +3531,7 @@
         "reagents": [
             {
                 "itemId": 14344,
-                "amount": 10
-            },
-            {
-                "itemId": 16203,
-                "amount": 6
-            },
-            {
-                "itemId": 16204,
-                "amount": 14
+                "amount": 8
             },
             {
                 "itemId": 7082,
@@ -3714,9 +3651,9 @@
         "name": "Enchant Bracer - Fortitude",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -3769,8 +3706,8 @@
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -3792,8 +3729,8 @@
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -3815,8 +3752,8 @@
         "colors": [
             370,
             380,
-            395,
-            410
+            385,
+            390
         ],
         "reagents": [
             {
@@ -3841,9 +3778,9 @@
         "name": "Enchant Ring - Stats",
         "colors": [
             375,
+            380,
             385,
-            400,
-            415
+            390
         ],
         "reagents": [
             {
@@ -3933,8 +3870,8 @@
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -4038,8 +3975,8 @@
         "colors": [
             370,
             380,
-            395,
-            410
+            385,
+            390
         ],
         "reagents": [
             {
@@ -4049,10 +3986,6 @@
             {
                 "itemId": 22449,
                 "amount": 4
-            },
-            {
-                "itemId": 23572,
-                "amount": 1
             }
         ],
         "recipes": [
@@ -4088,28 +4021,18 @@
         "spellId": 27958,
         "name": "Enchant Chest - Exceptional Mana",
         "colors": [
-            325,
-            335,
             350,
-            365
+            360,
+            370,
+            380
         ],
         "reagents": [
             {
-                "itemId": 22449,
-                "amount": 1
-            },
-            {
-                "itemId": 13444,
-                "amount": 4
-            },
-            {
-                "itemId": 22446,
-                "amount": 3
+                "itemId": 34054,
+                "amount": 6
             }
         ],
-        "recipes": [
-            22546
-        ]
+        "recipes": []
     },
     {
         "spellId": 27960,
@@ -4117,8 +4040,8 @@
         "colors": [
             345,
             355,
-            370,
-            385
+            367,
+            380
         ],
         "reagents": [
             {
@@ -4246,9 +4169,9 @@
         "name": "Enchant 2H Weapon - Savagery",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -4269,9 +4192,9 @@
         "name": "Enchant Weapon - Potency",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -4296,9 +4219,9 @@
         "name": "Enchant Weapon - Major Spellpower",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -4320,8 +4243,8 @@
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -4346,9 +4269,9 @@
         "name": "Enchant Weapon - Sunfire",
         "colors": [
             375,
-            385,
-            400,
-            415
+            390,
+            390,
+            390
         ],
         "reagents": [
             {
@@ -4381,9 +4304,9 @@
         "name": "Enchant Weapon - Soulfrost",
         "colors": [
             375,
+            380,
             385,
-            400,
-            415
+            390
         ],
         "reagents": [
             {
@@ -4416,9 +4339,9 @@
         "name": "Enchant Weapon - Mongoose",
         "colors": [
             375,
+            380,
             385,
-            400,
-            415
+            390
         ],
         "reagents": [
             {
@@ -4448,8 +4371,8 @@
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -4475,8 +4398,8 @@
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -4611,9 +4534,9 @@
         "name": "Void Sphere",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -4667,9 +4590,9 @@
         "name": "Runed Adamantite Rod",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -4708,8 +4631,8 @@
         "colors": [
             0,
             375,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -4718,15 +4641,11 @@
             },
             {
                 "itemId": 22446,
-                "amount": 12
+                "amount": 6
             },
             {
-                "itemId": 22450,
-                "amount": 2
-            },
-            {
-                "itemId": 23571,
-                "amount": 4
+                "itemId": 22445,
+                "amount": 6
             },
             {
                 "itemId": 22462,
@@ -4786,8 +4705,8 @@
         "colors": [
             345,
             355,
-            370,
-            385
+            367,
+            380
         ],
         "reagents": [
             {
@@ -4826,12 +4745,12 @@
     },
     {
         "spellId": 33994,
-        "name": "Enchant Gloves - Spell Strike",
+        "name": "Enchant Gloves - Precise Strikes",
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -4895,8 +4814,8 @@
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -4921,9 +4840,9 @@
         "name": "Enchant Gloves - Major Healing",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -5034,9 +4953,9 @@
         "name": "Enchant Cloak - Greater Arcane Resistance",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -5057,9 +4976,9 @@
         "name": "Enchant Cloak - Greater Shadow Resistance",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -5081,8 +5000,8 @@
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -5105,8 +5024,8 @@
         "colors": [
             360,
             370,
-            385,
-            400
+            377,
+            385
         ],
         "reagents": [
             {
@@ -5147,9 +5066,9 @@
         "name": "Enchant Weapon - Major Healing",
         "colors": [
             350,
-            360,
+            370,
             375,
-            390
+            380
         ],
         "reagents": [
             {
@@ -5249,9 +5168,9 @@
         "name": "Enchant Weapon - Executioner",
         "colors": [
             375,
+            380,
             385,
-            400,
-            415
+            390
         ],
         "reagents": [
             {
@@ -5296,6 +5215,901 @@
             {
                 "itemId": 22447,
                 "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44483,
+        "name": "Enchant Cloak - Superior Frost Resistance",
+        "colors": [
+            400,
+            415,
+            425,
+            435
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 6
+            },
+            {
+                "itemId": 34055,
+                "amount": 3
+            },
+            {
+                "itemId": 36860,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            37332
+        ]
+    },
+    {
+        "spellId": 44484,
+        "name": "Enchant Gloves - Expertise",
+        "colors": [
+            405,
+            415,
+            425,
+            435
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 12
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44488,
+        "name": "Enchant Gloves - Precision",
+        "colors": [
+            410,
+            420,
+            430,
+            440
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44489,
+        "name": "Enchant Shield - Defense",
+        "colors": [
+            420,
+            430,
+            440,
+            450
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 6
+            },
+            {
+                "itemId": 35624,
+                "amount": 6
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44492,
+        "name": "Enchant Chest - Mighty Health",
+        "colors": [
+            395,
+            405,
+            415,
+            425
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 3
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44494,
+        "name": "Enchant Cloak - Superior Nature Resistance",
+        "colors": [
+            400,
+            415,
+            425,
+            435
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 15
+            },
+            {
+                "itemId": 34055,
+                "amount": 1
+            },
+            {
+                "itemId": 35627,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            37333
+        ]
+    },
+    {
+        "spellId": 44500,
+        "name": "Enchant Cloak - Superior Agility",
+        "colors": [
+            395,
+            405,
+            415,
+            425
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 9
+            }
+        ],
+        "recipes": [
+            37335
+        ]
+    },
+    {
+        "spellId": 44506,
+        "name": "Enchant Gloves - Gatherer",
+        "colors": [
+            0,
+            375,
+            380,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44508,
+        "name": "Enchant Boots - Greater Spirit",
+        "colors": [
+            410,
+            420,
+            430,
+            440
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 10
+            },
+            {
+                "itemId": 34055,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44509,
+        "name": "Enchant Chest - Greater Mana Restoration",
+        "colors": [
+            420,
+            430,
+            440,
+            450
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 4
+            },
+            {
+                "itemId": 34055,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44510,
+        "name": "Enchant Weapon - Exceptional Spirit",
+        "colors": [
+            410,
+            420,
+            430,
+            440
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 16
+            },
+            {
+                "itemId": 34052,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            37329
+        ]
+    },
+    {
+        "spellId": 44513,
+        "name": "Enchant Gloves - Greater Assault",
+        "colors": [
+            395,
+            405,
+            415,
+            425
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 6
+            },
+            {
+                "itemId": 34055,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            37345
+        ]
+    },
+    {
+        "spellId": 44524,
+        "name": "Enchant Weapon - Icebreaker",
+        "colors": [
+            425,
+            435,
+            445,
+            455
+        ],
+        "reagents": [
+            {
+                "itemId": 34052,
+                "amount": 4
+            },
+            {
+                "itemId": 36860,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            37344
+        ]
+    },
+    {
+        "spellId": 44528,
+        "name": "Enchant Boots - Greater Fortitude",
+        "colors": [
+            0,
+            385,
+            390,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 34056,
+                "amount": 3
+            },
+            {
+                "itemId": 34054,
+                "amount": 3
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44529,
+        "name": "Enchant Gloves - Major Agility",
+        "colors": [
+            415,
+            425,
+            435,
+            445
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 4
+            },
+            {
+                "itemId": 34052,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44555,
+        "name": "Enchant Bracers - Exceptional Intellect",
+        "colors": [
+            375,
+            385,
+            392,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 10
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44556,
+        "name": "Enchant Cloak - Superior Fire Resistance",
+        "colors": [
+            400,
+            415,
+            425,
+            435
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 4
+            },
+            {
+                "itemId": 35622,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            37331
+        ]
+    },
+    {
+        "spellId": 44575,
+        "name": "Enchant Bracers - Greater Assault",
+        "colors": [
+            430,
+            440,
+            450,
+            460
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 24
+            },
+            {
+                "itemId": 34055,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            44484
+        ]
+    },
+    {
+        "spellId": 44576,
+        "name": "Enchant Weapon - Lifeward",
+        "colors": [
+            425,
+            435,
+            445,
+            455
+        ],
+        "reagents": [
+            {
+                "itemId": 34052,
+                "amount": 1
+            },
+            {
+                "itemId": 35625,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            44494
+        ]
+    },
+    {
+        "spellId": 44582,
+        "name": "Enchant Cloak - Spell Piercing",
+        "colors": [
+            395,
+            395,
+            402,
+            410
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 15
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44584,
+        "name": "Enchant Boots - Greater Vitality",
+        "colors": [
+            405,
+            415,
+            425,
+            435
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 8
+            },
+            {
+                "itemId": 34055,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44588,
+        "name": "Enchant Chest - Exceptional Resilience",
+        "colors": [
+            410,
+            435,
+            445,
+            455
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 2
+            },
+            {
+                "itemId": 34052,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            37340
+        ]
+    },
+    {
+        "spellId": 44589,
+        "name": "Enchant Boots - Superior Agility",
+        "colors": [
+            415,
+            425,
+            435,
+            445
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 16
+            },
+            {
+                "itemId": 34055,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            37341
+        ]
+    },
+    {
+        "spellId": 44590,
+        "name": "Enchant Cloak - Superior Shadow Resistance",
+        "colors": [
+            400,
+            415,
+            425,
+            435
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 8
+            },
+            {
+                "itemId": 34056,
+                "amount": 2
+            },
+            {
+                "itemId": 35625,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            37334
+        ]
+    },
+    {
+        "spellId": 44591,
+        "name": "Enchant Cloak - Titanweave",
+        "colors": [
+            435,
+            445,
+            455,
+            465
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 8
+            },
+            {
+                "itemId": 41163,
+                "amount": 2
+            },
+            {
+                "itemId": 34052,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            37347
+        ]
+    },
+    {
+        "spellId": 44592,
+        "name": "Enchant Gloves - Exceptional Spellpower",
+        "colors": [
+            360,
+            370,
+            380,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 4
+            },
+            {
+                "itemId": 34056,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44593,
+        "name": "Enchant Bracers - Major Spirit",
+        "colors": [
+            420,
+            430,
+            440,
+            450
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 16
+            },
+            {
+                "itemId": 34055,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            37326
+        ]
+    },
+    {
+        "spellId": 44595,
+        "name": "Enchant 2H Weapon - Scourgebane",
+        "colors": [
+            430,
+            440,
+            450,
+            460
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 6
+            },
+            {
+                "itemId": 34052,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            44473
+        ]
+    },
+    {
+        "spellId": 44596,
+        "name": "Enchant Cloak - Superior Arcane Resistance",
+        "colors": [
+            400,
+            415,
+            425,
+            435
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 20
+            },
+            {
+                "itemId": 35624,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            37330
+        ]
+    },
+    {
+        "spellId": 44598,
+        "name": "Enchant Bracers - Expertise",
+        "colors": [
+            415,
+            425,
+            435,
+            445
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 14
+            },
+            {
+                "itemId": 34055,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            37346
+        ]
+    },
+    {
+        "spellId": 44616,
+        "name": "Enchant Bracers - Greater Stats",
+        "colors": [
+            400,
+            410,
+            420,
+            430
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 16
+            },
+            {
+                "itemId": 34055,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            37337
+        ]
+    },
+    {
+        "spellId": 44621,
+        "name": "Enchant Weapon - Giant Slayer",
+        "colors": [
+            430,
+            440,
+            450,
+            460
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 2
+            },
+            {
+                "itemId": 34052,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            37339
+        ]
+    },
+    {
+        "spellId": 44623,
+        "name": "Enchant Chest - Super Stats",
+        "colors": [
+            370,
+            380,
+            390,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 4
+            },
+            {
+                "itemId": 34056,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44625,
+        "name": "Enchant Gloves - Armsman",
+        "colors": [
+            435,
+            445,
+            455,
+            465
+        ],
+        "reagents": [
+            {
+                "itemId": 34052,
+                "amount": 2
+            },
+            {
+                "itemId": 35624,
+                "amount": 8
+            }
+        ],
+        "recipes": [
+            44485
+        ]
+    },
+    {
+        "spellId": 44629,
+        "name": "Enchant Weapon - Exceptional Spellpower",
+        "colors": [
+            395,
+            405,
+            415,
+            425
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 10
+            },
+            {
+                "itemId": 34055,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44630,
+        "name": "Enchant 2H Weapon - Greater Savagery",
+        "colors": [
+            390,
+            400,
+            410,
+            420
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 6
+            },
+            {
+                "itemId": 34055,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            37338
+        ]
+    },
+    {
+        "spellId": 44631,
+        "name": "Enchant Cloak - Shadow Armor",
+        "colors": [
+            440,
+            450,
+            460,
+            470
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 12
+            },
+            {
+                "itemId": 34057,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            37349
+        ]
+    },
+    {
+        "spellId": 44633,
+        "name": "Enchant Weapon - Exceptional Agility",
+        "colors": [
+            410,
+            420,
+            430,
+            440
+        ],
+        "reagents": [
+            {
+                "itemId": 34052,
+                "amount": 4
+            },
+            {
+                "itemId": 35623,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            37343
+        ]
+    },
+    {
+        "spellId": 44635,
+        "name": "Enchant Bracers - Greater Spellpower",
+        "colors": [
+            395,
+            405,
+            415,
+            425
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 8
+            },
+            {
+                "itemId": 34056,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44636,
+        "name": "Enchant Ring - Greater Spellpower",
+        "colors": [
+            400,
+            400,
+            407,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 8
+            },
+            {
+                "itemId": 34055,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 44645,
+        "name": "Enchant Ring - Assault",
+        "colors": [
+            400,
+            400,
+            407,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 8
+            },
+            {
+                "itemId": 34055,
+                "amount": 1
             }
         ],
         "recipes": []
@@ -5380,8 +6194,8 @@
         "colors": [
             375,
             380,
-            395,
-            410
+            385,
+            390
         ],
         "reagents": [
             {
@@ -5395,6 +6209,808 @@
         ],
         "recipes": [
             35756
+        ]
+    },
+    {
+        "spellId": 47672,
+        "name": "Enchant Cloak - Mighty Armor",
+        "colors": [
+            430,
+            440,
+            450,
+            460
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 15
+            },
+            {
+                "itemId": 34055,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            44471
+        ]
+    },
+    {
+        "spellId": 47766,
+        "name": "Enchant Chest - Greater Defense",
+        "colors": [
+            400,
+            410,
+            420,
+            430
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 10
+            },
+            {
+                "itemId": 35624,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            37336
+        ]
+    },
+    {
+        "spellId": 47898,
+        "name": "Enchant Cloak - Greater Speed",
+        "colors": [
+            430,
+            440,
+            450,
+            460
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 16
+            },
+            {
+                "itemId": 34055,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            44472,
+            37348
+        ]
+    },
+    {
+        "spellId": 47899,
+        "name": "Enchant Cloak - Wisdom",
+        "colors": [
+            440,
+            450,
+            460,
+            470
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 6
+            },
+            {
+                "itemId": 34057,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            44488
+        ]
+    },
+    {
+        "spellId": 47900,
+        "name": "Enchant Chest - Super Health",
+        "colors": [
+            425,
+            435,
+            445,
+            455
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 20
+            },
+            {
+                "itemId": 34055,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 47901,
+        "name": "Enchant Boots - Tuskarr's Vitality",
+        "colors": [
+            440,
+            450,
+            460,
+            470
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 10
+            },
+            {
+                "itemId": 34055,
+                "amount": 2
+            },
+            {
+                "itemId": 34052,
+                "amount": 2
+            }
+        ],
+        "recipes": [
+            44491
+        ]
+    },
+    {
+        "spellId": 59619,
+        "name": "Enchant Weapon - Accuracy",
+        "colors": [
+            440,
+            450,
+            460,
+            470
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 20
+            },
+            {
+                "itemId": 34055,
+                "amount": 4
+            },
+            {
+                "itemId": 34052,
+                "amount": 4
+            },
+            {
+                "itemId": 34057,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            44496
+        ]
+    },
+    {
+        "spellId": 59621,
+        "name": "Enchant Weapon - Berserking",
+        "colors": [
+            440,
+            450,
+            460,
+            470
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 12
+            },
+            {
+                "itemId": 34055,
+                "amount": 4
+            },
+            {
+                "itemId": 34052,
+                "amount": 4
+            },
+            {
+                "itemId": 34057,
+                "amount": 10
+            }
+        ],
+        "recipes": [
+            44492
+        ]
+    },
+    {
+        "spellId": 59625,
+        "name": "Enchant Weapon - Black Magic",
+        "colors": [
+            440,
+            450,
+            460,
+            470
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 6
+            },
+            {
+                "itemId": 34052,
+                "amount": 6
+            },
+            {
+                "itemId": 34057,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            44495
+        ]
+    },
+    {
+        "spellId": 59636,
+        "name": "Enchant Ring - Stamina",
+        "colors": [
+            400,
+            400,
+            407,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 8
+            },
+            {
+                "itemId": 34055,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60606,
+        "name": "Enchant Boots - Assault",
+        "colors": [
+            375,
+            385,
+            395,
+            405
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 4
+            },
+            {
+                "itemId": 34056,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60609,
+        "name": "Enchant Cloak - Speed",
+        "colors": [
+            350,
+            360,
+            370,
+            380
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 6
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60616,
+        "name": "Enchant Bracers - Striking",
+        "colors": [
+            360,
+            370,
+            380,
+            390
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 6
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60619,
+        "name": "Runed Titanium Rod",
+        "colors": [
+            425,
+            435,
+            445,
+            455
+        ],
+        "reagents": [
+            {
+                "itemId": 41745,
+                "amount": 1
+            },
+            {
+                "itemId": 34054,
+                "amount": 40
+            },
+            {
+                "itemId": 34055,
+                "amount": 12
+            },
+            {
+                "itemId": 34052,
+                "amount": 8
+            },
+            {
+                "itemId": 22463,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            44452,
+            1,
+            1
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60621,
+        "name": "Enchant Weapon - Greater Potency",
+        "colors": [
+            380,
+            390,
+            400,
+            410
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 2
+            },
+            {
+                "itemId": 34056,
+                "amount": 4
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60623,
+        "name": "Enchant Boots - Icewalker",
+        "colors": [
+            385,
+            395,
+            405,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 8
+            },
+            {
+                "itemId": 37705,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60653,
+        "name": "Enchant Shield - Greater Intellect",
+        "colors": [
+            395,
+            405,
+            415,
+            425
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 12
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60663,
+        "name": "Enchant Cloak - Major Agility",
+        "colors": [
+            420,
+            430,
+            440,
+            450
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 8
+            },
+            {
+                "itemId": 34055,
+                "amount": 2
+            },
+            {
+                "itemId": 34052,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60668,
+        "name": "Enchant Gloves - Crusher",
+        "colors": [
+            425,
+            435,
+            445,
+            455
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 20
+            },
+            {
+                "itemId": 34055,
+                "amount": 4
+            },
+            {
+                "itemId": 34052,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 60691,
+        "name": "Enchant 2H Weapon - Massacre",
+        "colors": [
+            430,
+            440,
+            450,
+            460
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 40
+            },
+            {
+                "itemId": 34055,
+                "amount": 6
+            },
+            {
+                "itemId": 34057,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            44483
+        ]
+    },
+    {
+        "spellId": 60692,
+        "name": "Enchant Chest - Powerful Stats",
+        "colors": [
+            440,
+            450,
+            460,
+            470
+        ],
+        "reagents": [
+            {
+                "itemId": 34052,
+                "amount": 4
+            },
+            {
+                "itemId": 34057,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            44489
+        ]
+    },
+    {
+        "spellId": 60707,
+        "name": "Enchant Weapon - Superior Potency",
+        "colors": [
+            435,
+            445,
+            455,
+            465
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 10
+            },
+            {
+                "itemId": 34055,
+                "amount": 2
+            },
+            {
+                "itemId": 34052,
+                "amount": 2
+            },
+            {
+                "itemId": 34057,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            44486
+        ]
+    },
+    {
+        "spellId": 60714,
+        "name": "Enchant Weapon - Mighty Spellpower",
+        "colors": [
+            435,
+            445,
+            455,
+            465
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 30
+            },
+            {
+                "itemId": 34052,
+                "amount": 6
+            },
+            {
+                "itemId": 34057,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            44487
+        ]
+    },
+    {
+        "spellId": 60763,
+        "name": "Enchant Boots - Greater Assault",
+        "colors": [
+            440,
+            450,
+            460,
+            470
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 4
+            },
+            {
+                "itemId": 34052,
+                "amount": 4
+            }
+        ],
+        "recipes": [
+            44490
+        ]
+    },
+    {
+        "spellId": 60767,
+        "name": "Enchant Bracers - Superior Spellpower",
+        "colors": [
+            440,
+            450,
+            460,
+            470
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 6
+            },
+            {
+                "itemId": 34055,
+                "amount": 6
+            },
+            {
+                "itemId": 34052,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            44498
+        ]
+    },
+    {
+        "spellId": 62256,
+        "name": "Enchant Bracers - Major Stamina",
+        "colors": [
+            450,
+            460,
+            470,
+            480
+        ],
+        "reagents": [
+            {
+                "itemId": 34055,
+                "amount": 4
+            },
+            {
+                "itemId": 34057,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            44944
+        ]
+    },
+    {
+        "spellId": 62948,
+        "name": "Enchant Staff - Greater Spellpower",
+        "colors": [
+            450,
+            455,
+            460,
+            465
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 40
+            },
+            {
+                "itemId": 34052,
+                "amount": 6
+            },
+            {
+                "itemId": 34057,
+                "amount": 6
+            }
+        ],
+        "recipes": [
+            45059
+        ]
+    },
+    {
+        "spellId": 62959,
+        "name": "Enchant Staff - Spellpower",
+        "colors": [
+            385,
+            395,
+            405,
+            415
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 12
+            },
+            {
+                "itemId": 34055,
+                "amount": 2
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 63746,
+        "name": "Enchant Boots - Lesser Accuracy",
+        "colors": [
+            225,
+            245,
+            265,
+            285
+        ],
+        "reagents": [
+            {
+                "itemId": 11137,
+                "amount": 4
+            },
+            {
+                "itemId": 11174,
+                "amount": 1
+            }
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 64441,
+        "name": "Enchant Weapon - Blade Ward",
+        "colors": [
+            450,
+            455,
+            460,
+            465
+        ],
+        "reagents": [
+            {
+                "itemId": 34057,
+                "amount": 4
+            },
+            {
+                "itemId": 34055,
+                "amount": 8
+            },
+            {
+                "itemId": 37663,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            46027
+        ]
+    },
+    {
+        "spellId": 64579,
+        "name": "Enchant Weapon - Blood Draining",
+        "colors": [
+            450,
+            455,
+            460,
+            465
+        ],
+        "reagents": [
+            {
+                "itemId": 34057,
+                "amount": 4
+            },
+            {
+                "itemId": 34054,
+                "amount": 40
+            },
+            {
+                "itemId": 36918,
+                "amount": 1
+            }
+        ],
+        "recipes": [
+            46348
+        ]
+    },
+    {
+        "spellId": 69412,
+        "name": "Abyssal Shatter",
+        "colors": [
+            445,
+            445,
+            447,
+            450
+        ],
+        "reagents": [
+            {
+                "itemId": 34057,
+                "amount": 1
+            }
+        ],
+        "creates": [
+            34057,
+            0,
+            0
+        ],
+        "recipes": []
+    },
+    {
+        "spellId": 71692,
+        "name": "Enchant Gloves - Angler",
+        "colors": [
+            375,
+            385,
+            392,
+            400
+        ],
+        "reagents": [
+            {
+                "itemId": 34054,
+                "amount": 1
+            },
+            {
+                "itemId": 44958,
+                "amount": 3
+            }
+        ],
+        "recipes": [
+            50406
         ]
     }
 ]
