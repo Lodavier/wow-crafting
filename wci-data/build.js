@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const Database = require('wow-classic-items')
 const util = require('util')
 
 // const items = new Database.Items()
@@ -153,6 +152,10 @@ for(const enchant of enchants){
             result[enchant.name].craftMin = enchant.creates[1]
             result[enchant.name].craftMax = enchant.creates[2]
         }
+    }
+
+    if(enchant.scrollId){
+        result[enchant.name].scrollId = enchant.scrollId
     }
 }
 

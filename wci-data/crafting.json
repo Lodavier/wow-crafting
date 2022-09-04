@@ -32882,13 +32882,15 @@
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 1
-        }
+        },
+        "scrollId": 38679
     },
     "Enchant Chest - Minor Health": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 1
-        }
+        },
+        "scrollId": 38766
     },
     "Copper Rod": {
         "id": 6217,
@@ -32915,33 +32917,38 @@
         "reagents": {
             "Strange Dust": 2,
             "Lesser Magic Essence": 1
-        }
+        },
+        "scrollId": 38767
     },
     "Enchant Bracer - Minor Deflection": {
         "category": "enchanting",
         "reagents": {
             "Lesser Magic Essence": 1,
             "Strange Dust": 1
-        }
+        },
+        "scrollId": 38768
     },
     "Enchant Chest - Minor Mana": {
         "category": "enchanting",
         "reagents": {
             "Lesser Magic Essence": 1
-        }
+        },
+        "scrollId": 38769
     },
     "Enchant Cloak - Minor Resistance": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 1,
             "Lesser Magic Essence": 2
-        }
+        },
+        "scrollId": 38770
     },
     "Enchant Bracer - Minor Stamina": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 3
-        }
+        },
+        "scrollId": 38771
     },
     "Small Glimmering Shard": {
         "id": 10978,
@@ -32952,20 +32959,23 @@
         "reagents": {
             "Strange Dust": 4,
             "Small Glimmering Shard": 1
-        }
+        },
+        "scrollId": 38772
     },
     "Enchant Chest - Lesser Health": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 2,
             "Lesser Magic Essence": 2
-        }
+        },
+        "scrollId": 38773
     },
     "Enchant Bracer - Minor Spirit": {
         "category": "enchanting",
         "reagents": {
             "Lesser Magic Essence": 2
-        }
+        },
+        "scrollId": 38774
     },
     "Greater Magic Essence": {
         "id": 10939,
@@ -32976,34 +32986,39 @@
         "reagents": {
             "Strange Dust": 3,
             "Greater Magic Essence": 1
-        }
+        },
+        "scrollId": 38775
     },
     "Enchant Chest - Lesser Mana": {
         "category": "enchanting",
         "reagents": {
             "Greater Magic Essence": 1,
             "Lesser Magic Essence": 1
-        }
+        },
+        "scrollId": 38776
     },
     "Enchant Bracer - Minor Agility": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 2,
             "Greater Magic Essence": 1
-        }
+        },
+        "scrollId": 38777
     },
     "Enchant Bracer - Minor Strength": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 5
-        }
+        },
+        "scrollId": 38778
     },
     "Enchant Weapon - Minor Beastslayer": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 4,
             "Greater Magic Essence": 2
-        }
+        },
+        "scrollId": 38779
     },
     "Enchant Weapon - Minor Striking": {
         "category": "enchanting",
@@ -33011,13 +33026,15 @@
             "Strange Dust": 2,
             "Greater Magic Essence": 1,
             "Small Glimmering Shard": 1
-        }
+        },
+        "scrollId": 38780
     },
     "Enchant 2H Weapon - Lesser Intellect": {
         "category": "enchanting",
         "reagents": {
             "Greater Magic Essence": 3
-        }
+        },
+        "scrollId": 38781
     },
     "Runed Silver Rod": {
         "category": "enchanting",
@@ -33040,60 +33057,69 @@
         "reagents": {
             "Strange Dust": 4,
             "Lesser Astral Essence": 1
-        }
+        },
+        "scrollId": 38782
     },
     "Enchant Bracer - Lesser Spirit": {
         "category": "enchanting",
         "reagents": {
             "Lesser Astral Essence": 2
-        }
+        },
+        "scrollId": 38783
     },
     "Enchant Cloak - Lesser Fire Resistance": {
         "category": "enchanting",
         "reagents": {
             "Fire Oil": 1,
             "Lesser Astral Essence": 1
-        }
+        },
+        "scrollId": 38784
     },
     "Enchant Boots - Minor Stamina": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 8
-        }
+        },
+        "scrollId": 38785
     },
     "Enchant Boots - Minor Agility": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 6,
             "Lesser Astral Essence": 2
-        }
+        },
+        "scrollId": 38786
     },
     "Enchant Shield - Minor Stamina": {
         "category": "enchanting",
         "reagents": {
             "Lesser Astral Essence": 1,
             "Strange Dust": 2
-        }
+        },
+        "scrollId": 38787
     },
     "Enchant 2H Weapon - Lesser Spirit": {
         "category": "enchanting",
         "reagents": {
             "Lesser Astral Essence": 1,
             "Strange Dust": 6
-        }
+        },
+        "scrollId": 38788
     },
     "Enchant Cloak - Minor Agility": {
         "category": "enchanting",
         "reagents": {
             "Lesser Astral Essence": 1
-        }
+        },
+        "scrollId": 38789
     },
     "Enchant Cloak - Lesser Protection": {
         "category": "enchanting",
         "reagents": {
             "Strange Dust": 6,
             "Small Glimmering Shard": 1
-        }
+        },
+        "scrollId": 38790
     },
     "Enchant Shield - Lesser Protection": {
         "category": "enchanting",
@@ -33101,20 +33127,23 @@
             "Lesser Astral Essence": 1,
             "Strange Dust": 1,
             "Small Glimmering Shard": 1
-        }
+        },
+        "scrollId": 38791
     },
     "Enchant Shield - Lesser Spirit": {
         "category": "enchanting",
         "reagents": {
             "Lesser Astral Essence": 2,
             "Strange Dust": 4
-        }
+        },
+        "scrollId": 38792
     },
     "Enchant Bracer - Lesser Stamina": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 2
-        }
+        },
+        "scrollId": 38793
     },
     "Large Glimmering Shard": {
         "id": 11084,
@@ -33125,7 +33154,8 @@
         "reagents": {
             "Soul Dust": 2,
             "Large Glimmering Shard": 1
-        }
+        },
+        "scrollId": 38794
     },
     "Greater Astral Essence": {
         "id": 11082,
@@ -33136,20 +33166,23 @@
         "reagents": {
             "Greater Astral Essence": 1,
             "Shadow Protection Potion": 1
-        }
+        },
+        "scrollId": 38795
     },
     "Enchant 2H Weapon - Lesser Impact": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 3,
             "Large Glimmering Shard": 1
-        }
+        },
+        "scrollId": 38796
     },
     "Enchant Bracer - Lesser Strength": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 2
-        }
+        },
+        "scrollId": 38797
     },
     "Enchant Chest - Lesser Absorption": {
         "category": "enchanting",
@@ -33157,41 +33190,47 @@
             "Strange Dust": 2,
             "Greater Astral Essence": 1,
             "Large Glimmering Shard": 1
-        }
+        },
+        "scrollId": 38798
     },
     "Enchant Chest - Mana": {
         "category": "enchanting",
         "reagents": {
             "Greater Astral Essence": 1,
             "Lesser Astral Essence": 2
-        }
+        },
+        "scrollId": 38799
     },
     "Enchant Gloves - Mining": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 1,
             "Iron Ore": 3
-        }
+        },
+        "scrollId": 38800
     },
     "Enchant Gloves - Herbalism": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 1,
             "Kingsblood": 3
-        }
+        },
+        "scrollId": 38801
     },
     "Enchant Gloves - Fishing": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 1,
             "Blackmouth Oil": 3
-        }
+        },
+        "scrollId": 38802
     },
     "Enchant Bracer - Lesser Intellect": {
         "category": "enchanting",
         "reagents": {
             "Greater Astral Essence": 2
-        }
+        },
+        "scrollId": 38803
     },
     "Enchant Chest - Minor Stats": {
         "category": "enchanting",
@@ -33199,7 +33238,8 @@
             "Greater Astral Essence": 1,
             "Soul Dust": 1,
             "Large Glimmering Shard": 1
-        }
+        },
+        "scrollId": 38804
     },
     "Runed Golden Rod": {
         "category": "enchanting",
@@ -33223,7 +33263,8 @@
         "reagents": {
             "Lesser Mystic Essence": 1,
             "Soul Dust": 1
-        }
+        },
+        "scrollId": 38805
     },
     "Small Glowing Shard": {
         "id": 11138,
@@ -33234,45 +33275,52 @@
         "reagents": {
             "Small Glowing Shard": 1,
             "Soul Dust": 3
-        }
+        },
+        "scrollId": 38806
     },
     "Enchant Boots - Lesser Agility": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 1,
             "Lesser Mystic Essence": 1
-        }
+        },
+        "scrollId": 38807
     },
     "Enchant Chest - Greater Health": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 3
-        }
+        },
+        "scrollId": 38808
     },
     "Enchant Bracer - Spirit": {
         "category": "enchanting",
         "reagents": {
             "Lesser Mystic Essence": 1
-        }
+        },
+        "scrollId": 38809
     },
     "Enchant Boots - Lesser Stamina": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 4
-        }
+        },
+        "scrollId": 38810
     },
     "Enchant Bracer - Lesser Deflection": {
         "category": "enchanting",
         "reagents": {
             "Lesser Mystic Essence": 1,
             "Soul Dust": 2
-        }
+        },
+        "scrollId": 38811
     },
     "Enchant Bracer - Stamina": {
         "category": "enchanting",
         "reagents": {
             "Soul Dust": 6
-        }
+        },
+        "scrollId": 38812
     },
     "Enchant Weapon - Lesser Beastslayer": {
         "category": "enchanting",
@@ -33280,7 +33328,8 @@
             "Lesser Mystic Essence": 1,
             "Large Fang": 2,
             "Small Glowing Shard": 1
-        }
+        },
+        "scrollId": 38813
     },
     "Enchant Weapon - Lesser Elemental Slayer": {
         "category": "enchanting",
@@ -33288,14 +33337,16 @@
             "Lesser Mystic Essence": 1,
             "Elemental Earth": 1,
             "Small Glowing Shard": 1
-        }
+        },
+        "scrollId": 38814
     },
     "Enchant Cloak - Fire Resistance": {
         "category": "enchanting",
         "reagents": {
             "Lesser Mystic Essence": 1,
             "Elemental Fire": 1
-        }
+        },
+        "scrollId": 38815
     },
     "Greater Mystic Essence": {
         "id": 11135,
@@ -33306,26 +33357,30 @@
         "reagents": {
             "Greater Mystic Essence": 1,
             "Vision Dust": 1
-        }
+        },
+        "scrollId": 38816
     },
     "Enchant Bracer - Strength": {
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 1
-        }
+        },
+        "scrollId": 38817
     },
     "Enchant Chest - Greater Mana": {
         "category": "enchanting",
         "reagents": {
             "Greater Mystic Essence": 1
-        }
+        },
+        "scrollId": 38818
     },
     "Enchant Boots - Lesser Spirit": {
         "category": "enchanting",
         "reagents": {
             "Greater Mystic Essence": 1,
             "Lesser Mystic Essence": 2
-        }
+        },
+        "scrollId": 38819
     },
     "Large Glowing Shard": {
         "id": 11139,
@@ -33337,28 +33392,32 @@
             "Greater Mystic Essence": 2,
             "Vision Dust": 2,
             "Large Glowing Shard": 1
-        }
+        },
+        "scrollId": 38820
     },
     "Enchant Weapon - Striking": {
         "category": "enchanting",
         "reagents": {
             "Greater Mystic Essence": 2,
             "Large Glowing Shard": 1
-        }
+        },
+        "scrollId": 38821
     },
     "Enchant 2H Weapon - Impact": {
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 4,
             "Large Glowing Shard": 1
-        }
+        },
+        "scrollId": 38822
     },
     "Enchant Gloves - Skinning": {
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 1,
             "Green Whelp Scale": 3
-        }
+        },
+        "scrollId": 38823
     },
     "Enchant Chest - Lesser Stats": {
         "category": "enchanting",
@@ -33366,7 +33425,8 @@
             "Greater Mystic Essence": 2,
             "Vision Dust": 2,
             "Large Glowing Shard": 1
-        }
+        },
+        "scrollId": 38824
     },
     "Runed Truesilver Rod": {
         "category": "enchanting",
@@ -33385,7 +33445,8 @@
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 3
-        }
+        },
+        "scrollId": 38825
     },
     "Lesser Nether Essence": {
         "id": 11174,
@@ -33395,72 +33456,83 @@
         "category": "enchanting",
         "reagents": {
             "Lesser Nether Essence": 1
-        }
+        },
+        "scrollId": 38826
     },
     "Enchant Gloves - Agility": {
         "category": "enchanting",
         "reagents": {
             "Lesser Nether Essence": 1,
             "Vision Dust": 1
-        }
+        },
+        "scrollId": 38827
     },
     "Enchant Shield - Stamina": {
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 5
-        }
+        },
+        "scrollId": 38828
     },
     "Enchant Bracer - Intellect": {
         "category": "enchanting",
         "reagents": {
             "Lesser Nether Essence": 2
-        }
+        },
+        "scrollId": 38829
     },
     "Enchant Boots - Stamina": {
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 5
-        }
+        },
+        "scrollId": 38830
     },
     "Enchant Gloves - Advanced Mining": {
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 3,
             "Truesilver Bar": 3
-        }
+        },
+        "scrollId": 38831
     },
     "Enchant Bracer - Greater Spirit": {
         "category": "enchanting",
         "reagents": {
             "Lesser Nether Essence": 3,
             "Vision Dust": 1
-        }
+        },
+        "scrollId": 38832
     },
     "Enchant Chest - Superior Health": {
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 6
-        }
+        },
+        "scrollId": 38833
     },
     "Enchant Gloves - Advanced Herbalism": {
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 3,
             "Sungrass": 3
-        }
+        },
+        "scrollId": 38834
     },
     "Enchant Cloak - Lesser Agility": {
         "category": "enchanting",
         "reagents": {
             "Lesser Nether Essence": 2
-        }
+        },
+        "scrollId": 38835
     },
     "Enchant Gloves - Strength": {
         "category": "enchanting",
         "reagents": {
             "Lesser Nether Essence": 2,
             "Vision Dust": 3
-        }
+        },
+        "scrollId": 38836
     },
     "Small Radiant Shard": {
         "id": 11177,
@@ -33472,14 +33544,16 @@
             "Small Radiant Shard": 1,
             "Aquamarine": 1,
             "Lesser Nether Essence": 1
-        }
+        },
+        "scrollId": 38837
     },
     "Enchant Weapon - Fiery Weapon": {
         "category": "enchanting",
         "reagents": {
             "Small Radiant Shard": 4,
             "Essence of Fire": 1
-        }
+        },
+        "scrollId": 38838
     },
     "Greater Nether Essence": {
         "id": 11175,
@@ -33490,7 +33564,8 @@
         "reagents": {
             "Greater Nether Essence": 1,
             "Dream Dust": 2
-        }
+        },
+        "scrollId": 38839
     },
     "Enchant Weapon - Demonslaying": {
         "category": "enchanting",
@@ -33498,48 +33573,55 @@
             "Small Radiant Shard": 1,
             "Dream Dust": 2,
             "Elixir of Demonslaying": 1
-        }
+        },
+        "scrollId": 38840
     },
     "Enchant Chest - Superior Mana": {
         "category": "enchanting",
         "reagents": {
             "Greater Nether Essence": 1,
             "Lesser Nether Essence": 2
-        }
+        },
+        "scrollId": 38841
     },
     "Enchant Bracer - Deflection": {
         "category": "enchanting",
         "reagents": {
             "Greater Nether Essence": 1,
             "Dream Dust": 2
-        }
+        },
+        "scrollId": 38842
     },
     "Enchant Shield - Frost Resistance": {
         "category": "enchanting",
         "reagents": {
             "Large Radiant Shard": 1,
             "Frost Oil": 1
-        }
+        },
+        "scrollId": 38843
     },
     "Enchant Boots - Agility": {
         "category": "enchanting",
         "reagents": {
             "Greater Nether Essence": 2
-        }
+        },
+        "scrollId": 38844
     },
     "Enchant 2H Weapon - Greater Impact": {
         "category": "enchanting",
         "reagents": {
             "Large Radiant Shard": 2,
             "Dream Dust": 2
-        }
+        },
+        "scrollId": 38845
     },
     "Enchant Bracer - Greater Strength": {
         "category": "enchanting",
         "reagents": {
             "Dream Dust": 2,
             "Greater Nether Essence": 1
-        }
+        },
+        "scrollId": 38846
     },
     "Enchant Chest - Stats": {
         "category": "enchanting",
@@ -33547,34 +33629,39 @@
             "Large Radiant Shard": 1,
             "Dream Dust": 3,
             "Greater Nether Essence": 2
-        }
+        },
+        "scrollId": 38847
     },
     "Enchant Weapon - Greater Striking": {
         "category": "enchanting",
         "reagents": {
             "Large Radiant Shard": 2,
             "Greater Nether Essence": 2
-        }
+        },
+        "scrollId": 38848
     },
     "Enchant Bracer - Greater Stamina": {
         "category": "enchanting",
         "reagents": {
             "Dream Dust": 5
-        }
+        },
+        "scrollId": 38849
     },
     "Enchant Gloves - Riding Skill": {
         "category": "enchanting",
         "reagents": {
             "Large Radiant Shard": 2,
             "Dream Dust": 3
-        }
+        },
+        "scrollId": 38850
     },
     "Enchant Gloves - Minor Haste": {
         "category": "enchanting",
         "reagents": {
             "Large Radiant Shard": 2,
             "Wildvine": 2
-        }
+        },
+        "scrollId": 38851
     },
     "Lesser Magic Wand": {
         "category": "enchanting",
@@ -33650,14 +33737,16 @@
         "category": "enchanting",
         "reagents": {
             "Lesser Eternal Essence": 3
-        }
+        },
+        "scrollId": 38852
     },
     "Enchant Bracer - Superior Spirit": {
         "category": "enchanting",
         "reagents": {
             "Lesser Eternal Essence": 3,
             "Dream Dust": 4
-        }
+        },
+        "scrollId": 38853
     },
     "Illusion Dust": {
         "id": 16204,
@@ -33668,27 +33757,31 @@
         "reagents": {
             "Illusion Dust": 6,
             "Greater Eternal Essence": 2
-        }
+        },
+        "scrollId": 38854
     },
     "Enchant Bracer - Superior Stamina": {
         "category": "enchanting",
         "reagents": {
             "Illusion Dust": 10
-        }
+        },
+        "scrollId": 38855
     },
     "Enchant Gloves - Greater Agility": {
         "category": "enchanting",
         "reagents": {
             "Lesser Eternal Essence": 2,
             "Illusion Dust": 3
-        }
+        },
+        "scrollId": 38856
     },
     "Enchant Gloves - Greater Strength": {
         "category": "enchanting",
         "reagents": {
             "Lesser Eternal Essence": 4,
             "Illusion Dust": 4
-        }
+        },
+        "scrollId": 38857
     },
     "Enchant Cloak - Greater Resistance": {
         "category": "enchanting",
@@ -33698,64 +33791,74 @@
             "Globe of Water": 1,
             "Breath of Wind": 1,
             "Ichor of Undeath": 1
-        }
+        },
+        "scrollId": 38858
     },
     "Enchant Cloak - Superior Defense": {
         "category": "enchanting",
         "reagents": {
             "Illusion Dust": 8
-        }
+        },
+        "scrollId": 38859
     },
     "Enchant Shield - Vitality": {
         "category": "enchanting",
         "reagents": {
             "Greater Eternal Essence": 1,
             "Illusion Dust": 4
-        }
+        },
+        "scrollId": 38860
     },
     "Enchant Shield - Greater Stamina": {
         "category": "enchanting",
         "reagents": {
             "Dream Dust": 5
-        }
+        },
+        "scrollId": 38861
     },
     "Enchant Boots - Greater Stamina": {
         "category": "enchanting",
         "reagents": {
             "Dream Dust": 5
-        }
+        },
+        "scrollId": 38862
     },
     "Enchant Boots - Greater Agility": {
         "category": "enchanting",
         "reagents": {
             "Lesser Eternal Essence": 2,
             "Wildvine": 2
-        }
+        },
+        "scrollId": 38863
     },
     "Enchant Boots - Spirit": {
         "category": "enchanting",
         "reagents": {
             "Greater Eternal Essence": 2
-        }
+        },
+        "scrollId": 38864
     },
     "Enchant Chest - Greater Stats": {
         "category": "enchanting",
         "reagents": {
             "Large Brilliant Shard": 2,
             "Illusion Dust": 6
-        }
+        },
+        "scrollId": 38865
     },
     "Enchant Chest - Major Health": {
         "category": "enchanting",
         "reagents": {
             "Small Brilliant Shard": 2
-        }
+        },
+        "scrollId": 38866
     },
     "Enchant Chest - Major Mana": {
         "category": "enchanting",
         "reagents": {
             "Illusion Dust": 8
-        }
+        },
+        "scrollId": 38867
     },
     "Enchant Weapon - Icy Chill": {
         "category": "enchanting",
@@ -33764,21 +33867,24 @@
             "Essence of Water": 1,
             "Essence of Air": 1,
             "Icecap": 1
-        }
+        },
+        "scrollId": 38868
     },
     "Enchant 2H Weapon - Superior Impact": {
         "category": "enchanting",
         "reagents": {
             "Large Brilliant Shard": 4,
             "Illusion Dust": 10
-        }
+        },
+        "scrollId": 38869
     },
     "Enchant Weapon - Superior Striking": {
         "category": "enchanting",
         "reagents": {
             "Large Brilliant Shard": 2,
             "Greater Eternal Essence": 4
-        }
+        },
+        "scrollId": 38870
     },
     "Enchant Weapon - Lifestealing": {
         "category": "enchanting",
@@ -33786,35 +33892,40 @@
             "Large Brilliant Shard": 4,
             "Essence of Undeath": 4,
             "Living Essence": 4
-        }
+        },
+        "scrollId": 38871
     },
     "Enchant Weapon - Unholy Weapon": {
         "category": "enchanting",
         "reagents": {
             "Large Brilliant Shard": 4,
             "Essence of Undeath": 4
-        }
+        },
+        "scrollId": 38872
     },
     "Enchant Weapon - Crusader": {
         "category": "enchanting",
         "reagents": {
             "Large Brilliant Shard": 4,
             "Righteous Orb": 2
-        }
+        },
+        "scrollId": 38873
     },
     "Enchant 2H Weapon - Major Spirit": {
         "category": "enchanting",
         "reagents": {
             "Greater Eternal Essence": 4,
             "Large Brilliant Shard": 2
-        }
+        },
+        "scrollId": 38874
     },
     "Enchant 2H Weapon - Major Intellect": {
         "category": "enchanting",
         "reagents": {
             "Greater Eternal Essence": 4,
             "Large Brilliant Shard": 2
-        }
+        },
+        "scrollId": 38875
     },
     "Runed Arcanite Rod": {
         "category": "enchanting",
@@ -33837,7 +33948,8 @@
             "Vision Dust": 3,
             "Large Glowing Shard": 1,
             "Wintersbite": 2
-        }
+        },
+        "scrollId": 38876
     },
     "Enchant Weapon - Spellpower": {
         "category": "enchanting",
@@ -33845,7 +33957,8 @@
             "Large Brilliant Shard": 4,
             "Greater Eternal Essence": 6,
             "Golden Pearl": 2
-        }
+        },
+        "scrollId": 38877
     },
     "Enchant Weapon - Healing Power": {
         "category": "enchanting",
@@ -33853,21 +33966,24 @@
             "Large Brilliant Shard": 4,
             "Greater Eternal Essence": 4,
             "Essence of Water": 4
-        }
+        },
+        "scrollId": 38878
     },
     "Enchant Weapon - Strength": {
         "category": "enchanting",
         "reagents": {
             "Large Brilliant Shard": 4,
             "Essence of Earth": 4
-        }
+        },
+        "scrollId": 38879
     },
     "Enchant Weapon - Agility": {
         "category": "enchanting",
         "reagents": {
             "Large Brilliant Shard": 4,
             "Essence of Air": 4
-        }
+        },
+        "scrollId": 38880
     },
     "Enchant Bracer - Mana Regeneration": {
         "category": "enchanting",
@@ -33875,7 +33991,8 @@
             "Illusion Dust": 4,
             "Lesser Eternal Essence": 4,
             "Essence of Water": 2
-        }
+        },
+        "scrollId": 38881
     },
     "Enchant Bracer - Healing Power": {
         "category": "enchanting",
@@ -33883,7 +34000,8 @@
             "Large Brilliant Shard": 2,
             "Illusion Dust": 4,
             "Lesser Eternal Essence": 4
-        }
+        },
+        "scrollId": 38882
     },
     "Enchant Weapon - Mighty Spirit": {
         "category": "enchanting",
@@ -33891,7 +34009,8 @@
             "Large Brilliant Shard": 6,
             "Greater Eternal Essence": 4,
             "Illusion Dust": 12
-        }
+        },
+        "scrollId": 38883
     },
     "Enchant Weapon - Mighty Intellect": {
         "category": "enchanting",
@@ -33899,7 +34018,8 @@
             "Large Brilliant Shard": 6,
             "Greater Eternal Essence": 5,
             "Illusion Dust": 20
-        }
+        },
+        "scrollId": 38884
     },
     "Enchant Gloves - Threat": {
         "category": "enchanting",
@@ -33907,7 +34027,8 @@
             "Small Prismatic Shard": 4,
             "Greater Planar Essence": 2,
             "Primal Life": 8
-        }
+        },
+        "scrollId": 38885
     },
     "Enchant Gloves - Shadow Power": {
         "category": "enchanting",
@@ -33915,7 +34036,8 @@
             "Small Prismatic Shard": 3,
             "Large Brilliant Shard": 10,
             "Essence of Undeath": 6
-        }
+        },
+        "scrollId": 38886
     },
     "Enchant Gloves - Frost Power": {
         "category": "enchanting",
@@ -33923,7 +34045,8 @@
             "Small Prismatic Shard": 3,
             "Large Brilliant Shard": 10,
             "Essence of Water": 4
-        }
+        },
+        "scrollId": 38887
     },
     "Enchant Gloves - Fire Power": {
         "category": "enchanting",
@@ -33931,7 +34054,8 @@
             "Small Prismatic Shard": 2,
             "Large Brilliant Shard": 10,
             "Essence of Fire": 4
-        }
+        },
+        "scrollId": 38888
     },
     "Enchant Gloves - Healing Power": {
         "category": "enchanting",
@@ -33939,7 +34063,8 @@
             "Small Prismatic Shard": 3,
             "Large Brilliant Shard": 8,
             "Righteous Orb": 1
-        }
+        },
+        "scrollId": 38889
     },
     "Enchant Gloves - Superior Agility": {
         "category": "enchanting",
@@ -33947,7 +34072,8 @@
             "Small Prismatic Shard": 3,
             "Greater Planar Essence": 3,
             "Primal Air": 2
-        }
+        },
+        "scrollId": 38890
     },
     "Enchant Cloak - Greater Fire Resistance": {
         "category": "enchanting",
@@ -33955,7 +34081,8 @@
             "Small Prismatic Shard": 3,
             "Greater Planar Essence": 3,
             "Essence of Fire": 4
-        }
+        },
+        "scrollId": 38891
     },
     "Enchant Cloak - Greater Nature Resistance": {
         "category": "enchanting",
@@ -33963,7 +34090,8 @@
             "Small Prismatic Shard": 2,
             "Greater Planar Essence": 3,
             "Living Essence": 4
-        }
+        },
+        "scrollId": 38892
     },
     "Enchant Cloak - Stealth": {
         "category": "enchanting",
@@ -33971,7 +34099,8 @@
             "Small Prismatic Shard": 3,
             "Greater Planar Essence": 3,
             "Fel Lotus": 2
-        }
+        },
+        "scrollId": 38893
     },
     "Enchant Cloak - Subtlety": {
         "category": "enchanting",
@@ -33979,7 +34108,8 @@
             "Small Prismatic Shard": 4,
             "Greater Planar Essence": 2,
             "Primal Shadow": 8
-        }
+        },
+        "scrollId": 38894
     },
     "Enchant Cloak - Dodge": {
         "category": "enchanting",
@@ -33987,7 +34117,8 @@
             "Small Prismatic Shard": 3,
             "Greater Planar Essence": 3,
             "Primal Earth": 8
-        }
+        },
+        "scrollId": 38895
     },
     "Maple Seed": {
         "id": 17034,
@@ -34081,13 +34212,15 @@
         "reagents": {
             "Large Brilliant Shard": 8,
             "Essence of Air": 4
-        }
+        },
+        "scrollId": 38896
     },
     "Enchant Bracer - Brawn": {
         "category": "enchanting",
         "reagents": {
             "Arcane Dust": 6
-        }
+        },
+        "scrollId": 38897
     },
     "Lesser Planar Essence": {
         "id": 22447,
@@ -34098,27 +34231,31 @@
         "reagents": {
             "Arcane Dust": 6,
             "Lesser Planar Essence": 6
-        }
+        },
+        "scrollId": 38898
     },
     "Enchant Bracer - Major Defense": {
         "category": "enchanting",
         "reagents": {
             "Small Prismatic Shard": 2,
             "Arcane Dust": 10
-        }
+        },
+        "scrollId": 38899
     },
     "Enchant Bracer - Superior Healing": {
         "category": "enchanting",
         "reagents": {
             "Greater Planar Essence": 4,
             "Primal Life": 4
-        }
+        },
+        "scrollId": 38900
     },
     "Enchant Bracer - Restore Mana Prime": {
         "category": "enchanting",
         "reagents": {
             "Greater Planar Essence": 8
-        }
+        },
+        "scrollId": 38901
     },
     "Enchant Bracer - Fortitude": {
         "category": "enchanting",
@@ -34126,7 +34263,8 @@
             "Large Prismatic Shard": 1,
             "Greater Planar Essence": 10,
             "Arcane Dust": 20
-        }
+        },
+        "scrollId": 38902
     },
     "Enchant Bracer - Spellpower": {
         "category": "enchanting",
@@ -34134,7 +34272,8 @@
             "Large Prismatic Shard": 6,
             "Primal Fire": 6,
             "Primal Water": 6
-        }
+        },
+        "scrollId": 38903
     },
     "Enchant Ring - Striking": {
         "category": "enchanting",
@@ -34170,13 +34309,15 @@
         "reagents": {
             "Arcane Dust": 6,
             "Primal Earth": 10
-        }
+        },
+        "scrollId": 38904
     },
     "Enchant Shield - Intellect": {
         "category": "enchanting",
         "reagents": {
             "Greater Planar Essence": 4
-        }
+        },
+        "scrollId": 38905
     },
     "Enchant Shield - Shield Block": {
         "category": "enchanting",
@@ -34184,7 +34325,8 @@
             "Arcane Dust": 12,
             "Greater Planar Essence": 4,
             "Primal Earth": 10
-        }
+        },
+        "scrollId": 38906
     },
     "Mote of Air": {
         "id": 22572,
@@ -34198,7 +34340,8 @@
             "Mote of Fire": 1,
             "Mote of Air": 1,
             "Mote of Water": 1
-        }
+        },
+        "scrollId": 38907
     },
     "Enchant Boots - Vitality": {
         "category": "enchanting",
@@ -34206,27 +34349,31 @@
             "Arcane Dust": 6,
             "Major Healing Potion": 4,
             "Major Mana Potion": 4
-        }
+        },
+        "scrollId": 38908
     },
     "Enchant Boots - Fortitude": {
         "category": "enchanting",
         "reagents": {
             "Arcane Dust": 12
-        }
+        },
+        "scrollId": 38909
     },
     "Enchant Boots - Dexterity": {
         "category": "enchanting",
         "reagents": {
             "Greater Planar Essence": 8,
             "Arcane Dust": 8
-        }
+        },
+        "scrollId": 37603
     },
     "Enchant Boots - Surefooted": {
         "category": "enchanting",
         "reagents": {
             "Void Crystal": 2,
             "Large Prismatic Shard": 4
-        }
+        },
+        "scrollId": 38910
     },
     "Enchant Chest - Exceptional Health": {
         "category": "enchanting",
@@ -34234,13 +34381,15 @@
             "Arcane Dust": 8,
             "Major Healing Potion": 4,
             "Large Brilliant Shard": 2
-        }
+        },
+        "scrollId": 38911
     },
     "Enchant Chest - Exceptional Mana": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 6
-        }
+        },
+        "scrollId": 38912
     },
     "Enchant Chest - Exceptional Stats": {
         "category": "enchanting",
@@ -34248,13 +34397,15 @@
             "Large Prismatic Shard": 4,
             "Arcane Dust": 4,
             "Greater Planar Essence": 4
-        }
+        },
+        "scrollId": 38913
     },
     "Enchant Cloak - Major Armor": {
         "category": "enchanting",
         "reagents": {
             "Arcane Dust": 8
-        }
+        },
+        "scrollId": 38914
     },
     "Enchant Cloak - Major Resistance": {
         "category": "enchanting",
@@ -34264,7 +34415,8 @@
             "Primal Air": 4,
             "Primal Earth": 4,
             "Primal Water": 4
-        }
+        },
+        "scrollId": 38915
     },
     "Enchant Weapon - Major Striking": {
         "category": "enchanting",
@@ -34272,21 +34424,24 @@
             "Large Prismatic Shard": 2,
             "Greater Planar Essence": 6,
             "Arcane Dust": 6
-        }
+        },
+        "scrollId": 38917
     },
     "Enchant Weapon - Major Intellect": {
         "category": "enchanting",
         "reagents": {
             "Large Prismatic Shard": 2,
             "Greater Planar Essence": 10
-        }
+        },
+        "scrollId": 38918
     },
     "Enchant 2H Weapon - Savagery": {
         "category": "enchanting",
         "reagents": {
             "Large Prismatic Shard": 4,
             "Arcane Dust": 40
-        }
+        },
+        "scrollId": 38919
     },
     "Enchant Weapon - Potency": {
         "category": "enchanting",
@@ -34294,14 +34449,16 @@
             "Large Prismatic Shard": 4,
             "Greater Planar Essence": 5,
             "Arcane Dust": 20
-        }
+        },
+        "scrollId": 38920
     },
     "Enchant Weapon - Major Spellpower": {
         "category": "enchanting",
         "reagents": {
             "Large Prismatic Shard": 8,
             "Greater Planar Essence": 8
-        }
+        },
+        "scrollId": 38921
     },
     "Enchant 2H Weapon - Major Agility": {
         "category": "enchanting",
@@ -34309,7 +34466,8 @@
             "Large Prismatic Shard": 8,
             "Greater Planar Essence": 6,
             "Arcane Dust": 20
-        }
+        },
+        "scrollId": 38922
     },
     "Enchant Weapon - Sunfire": {
         "category": "enchanting",
@@ -34319,7 +34477,8 @@
             "Greater Planar Essence": 8,
             "Primal Fire": 6,
             "Primal Might": 1
-        }
+        },
+        "scrollId": 38923
     },
     "Enchant Weapon - Soulfrost": {
         "category": "enchanting",
@@ -34329,7 +34488,8 @@
             "Greater Planar Essence": 8,
             "Primal Water": 6,
             "Primal Shadow": 6
-        }
+        },
+        "scrollId": 38924
     },
     "Enchant Weapon - Mongoose": {
         "category": "enchanting",
@@ -34338,7 +34498,8 @@
             "Large Prismatic Shard": 10,
             "Greater Planar Essence": 8,
             "Arcane Dust": 40
-        }
+        },
+        "scrollId": 38925
     },
     "Enchant Weapon - Spellsurge": {
         "category": "enchanting",
@@ -34346,7 +34507,8 @@
             "Large Prismatic Shard": 12,
             "Greater Planar Essence": 10,
             "Arcane Dust": 20
-        }
+        },
+        "scrollId": 38926
     },
     "Enchant Weapon - Battlemaster": {
         "category": "enchanting",
@@ -34354,7 +34516,8 @@
             "Void Crystal": 8,
             "Large Prismatic Shard": 8,
             "Primal Water": 2
-        }
+        },
+        "scrollId": 38927
     },
     "Superior Mana Oil": {
         "category": "enchanting",
@@ -34437,28 +34600,32 @@
         "category": "enchanting",
         "reagents": {
             "Greater Planar Essence": 2
-        }
+        },
+        "scrollId": 38928
     },
     "Enchant Chest - Restore Mana Prime": {
         "category": "enchanting",
         "reagents": {
             "Lesser Planar Essence": 2,
             "Arcane Dust": 2
-        }
+        },
+        "scrollId": 38929
     },
     "Enchant Chest - Major Resilience": {
         "category": "enchanting",
         "reagents": {
             "Greater Planar Essence": 4,
             "Arcane Dust": 10
-        }
+        },
+        "scrollId": 38930
     },
     "Enchant Gloves - Blasting": {
         "category": "enchanting",
         "reagents": {
             "Lesser Planar Essence": 1,
             "Arcane Dust": 4
-        }
+        },
+        "scrollId": 38931
     },
     "Enchant Gloves - Precise Strikes": {
         "category": "enchanting",
@@ -34466,20 +34633,23 @@
             "Greater Planar Essence": 8,
             "Arcane Dust": 2,
             "Large Prismatic Shard": 2
-        }
+        },
+        "scrollId": 38932
     },
     "Enchant Gloves - Major Strength": {
         "category": "enchanting",
         "reagents": {
             "Arcane Dust": 12,
             "Greater Planar Essence": 1
-        }
+        },
+        "scrollId": 38933
     },
     "Enchant Gloves - Assault": {
         "category": "enchanting",
         "reagents": {
             "Arcane Dust": 8
-        }
+        },
+        "scrollId": 38934
     },
     "Enchant Gloves - Major Spellpower": {
         "category": "enchanting",
@@ -34487,7 +34657,8 @@
             "Greater Planar Essence": 6,
             "Large Prismatic Shard": 6,
             "Primal Mana": 6
-        }
+        },
+        "scrollId": 38935
     },
     "Enchant Gloves - Major Healing": {
         "category": "enchanting",
@@ -34495,19 +34666,22 @@
             "Greater Planar Essence": 6,
             "Large Prismatic Shard": 6,
             "Primal Life": 6
-        }
+        },
+        "scrollId": 38936
     },
     "Enchant Bracer - Major Intellect": {
         "category": "enchanting",
         "reagents": {
             "Lesser Planar Essence": 3
-        }
+        },
+        "scrollId": 38937
     },
     "Enchant Bracer - Assault": {
         "category": "enchanting",
         "reagents": {
             "Arcane Dust": 6
-        }
+        },
+        "scrollId": 38938
     },
     "Enchant Cloak - Spell Penetration": {
         "category": "enchanting",
@@ -34515,7 +34689,8 @@
             "Greater Planar Essence": 2,
             "Arcane Dust": 6,
             "Primal Mana": 2
-        }
+        },
+        "scrollId": 38939
     },
     "Enchant Cloak - Greater Agility": {
         "category": "enchanting",
@@ -34523,41 +34698,47 @@
             "Greater Planar Essence": 1,
             "Arcane Dust": 4,
             "Primal Air": 1
-        }
+        },
+        "scrollId": 38940
     },
     "Enchant Cloak - Greater Arcane Resistance": {
         "category": "enchanting",
         "reagents": {
             "Large Prismatic Shard": 4,
             "Primal Mana": 8
-        }
+        },
+        "scrollId": 38941
     },
     "Enchant Cloak - Greater Shadow Resistance": {
         "category": "enchanting",
         "reagents": {
             "Large Prismatic Shard": 4,
             "Primal Shadow": 8
-        }
+        },
+        "scrollId": 38942
     },
     "Enchant Boots - Cat's Swiftness": {
         "category": "enchanting",
         "reagents": {
             "Large Prismatic Shard": 8,
             "Primal Air": 8
-        }
+        },
+        "scrollId": 38943
     },
     "Enchant Boots - Boar's Speed": {
         "category": "enchanting",
         "reagents": {
             "Large Prismatic Shard": 8,
             "Primal Earth": 8
-        }
+        },
+        "scrollId": 38944
     },
     "Enchant Shield - Major Stamina": {
         "category": "enchanting",
         "reagents": {
             "Arcane Dust": 15
-        }
+        },
+        "scrollId": 38945
     },
     "Enchant Weapon - Major Healing": {
         "category": "enchanting",
@@ -34565,7 +34746,8 @@
             "Large Prismatic Shard": 8,
             "Primal Water": 8,
             "Primal Life": 8
-        }
+        },
+        "scrollId": 38946
     },
     "Nexus Transformation": {
         "category": "enchanting",
@@ -34583,7 +34765,8 @@
             "Greater Planar Essence": 4,
             "Large Prismatic Shard": 6,
             "Primal Air": 2
-        }
+        },
+        "scrollId": 38947
     },
     "Enchant Weapon - Executioner": {
         "category": "enchanting",
@@ -34593,14 +34776,16 @@
             "Greater Planar Essence": 6,
             "Arcane Dust": 30,
             "Elixir of Major Strength": 3
-        }
+        },
+        "scrollId": 38948
     },
     "Enchant Shield - Resilience": {
         "category": "enchanting",
         "reagents": {
             "Large Prismatic Shard": 1,
             "Lesser Planar Essence": 4
-        }
+        },
+        "scrollId": 38949
     },
     "Enchant Cloak - Superior Frost Resistance": {
         "category": "enchanting",
@@ -34608,32 +34793,37 @@
             "Infinite Dust": 6,
             "Greater Cosmic Essence": 3,
             "Eternal Fire": 1
-        }
+        },
+        "scrollId": 38950
     },
     "Enchant Gloves - Expertise": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 12
-        }
+        },
+        "scrollId": 38951
     },
     "Enchant Gloves - Precision": {
         "category": "enchanting",
         "reagents": {
             "Greater Cosmic Essence": 4
-        }
+        },
+        "scrollId": 38953
     },
     "Enchant Shield - Defense": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 6,
             "Eternal Earth": 6
-        }
+        },
+        "scrollId": 38954
     },
     "Enchant Chest - Mighty Health": {
         "category": "enchanting",
         "reagents": {
             "Greater Cosmic Essence": 3
-        }
+        },
+        "scrollId": 38955
     },
     "Enchant Cloak - Superior Nature Resistance": {
         "category": "enchanting",
@@ -34641,54 +34831,62 @@
             "Infinite Dust": 15,
             "Greater Cosmic Essence": 1,
             "Eternal Shadow": 1
-        }
+        },
+        "scrollId": 38956
     },
     "Enchant Cloak - Superior Agility": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 9
-        }
+        },
+        "scrollId": 38959
     },
     "Enchant Gloves - Gatherer": {
         "category": "enchanting",
         "reagents": {
             "Greater Cosmic Essence": 1
-        }
+        },
+        "scrollId": 38960
     },
     "Enchant Boots - Greater Spirit": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 10,
             "Greater Cosmic Essence": 1
-        }
+        },
+        "scrollId": 38961
     },
     "Enchant Chest - Greater Mana Restoration": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 4,
             "Greater Cosmic Essence": 4
-        }
+        },
+        "scrollId": 38962
     },
     "Enchant Weapon - Exceptional Spirit": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 16,
             "Dream Shard": 4
-        }
+        },
+        "scrollId": 38963
     },
     "Enchant Gloves - Greater Assault": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 6,
             "Greater Cosmic Essence": 1
-        }
+        },
+        "scrollId": 38964
     },
     "Enchant Weapon - Icebreaker": {
         "category": "enchanting",
         "reagents": {
             "Dream Shard": 4,
             "Eternal Fire": 4
-        }
+        },
+        "scrollId": 38965
     },
     "Lesser Cosmic Essence": {
         "id": 34056,
@@ -34699,68 +34897,78 @@
         "reagents": {
             "Lesser Cosmic Essence": 3,
             "Infinite Dust": 3
-        }
+        },
+        "scrollId": 38966
     },
     "Enchant Gloves - Major Agility": {
         "category": "enchanting",
         "reagents": {
             "Greater Cosmic Essence": 4,
             "Dream Shard": 1
-        }
+        },
+        "scrollId": 38967
     },
     "Enchant Bracers - Exceptional Intellect": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 10
-        }
+        },
+        "scrollId": 38968
     },
     "Enchant Cloak - Superior Fire Resistance": {
         "category": "enchanting",
         "reagents": {
             "Greater Cosmic Essence": 4,
             "Eternal Water": 1
-        }
+        },
+        "scrollId": 38969
     },
     "Enchant Bracers - Greater Assault": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 24,
             "Greater Cosmic Essence": 6
-        }
+        },
+        "scrollId": 44815
     },
     "Enchant Weapon - Lifeward": {
         "category": "enchanting",
         "reagents": {
             "Dream Shard": 1,
             "Eternal Life": 4
-        }
+        },
+        "scrollId": 38972
     },
     "Enchant Cloak - Spell Piercing": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 15
-        }
+        },
+        "scrollId": 38973
     },
     "Enchant Boots - Greater Vitality": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 8,
             "Greater Cosmic Essence": 2
-        }
+        },
+        "scrollId": 38974
     },
     "Enchant Chest - Exceptional Resilience": {
         "category": "enchanting",
         "reagents": {
             "Greater Cosmic Essence": 2,
             "Dream Shard": 2
-        }
+        },
+        "scrollId": 38975
     },
     "Enchant Boots - Superior Agility": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 16,
             "Greater Cosmic Essence": 4
-        }
+        },
+        "scrollId": 38976
     },
     "Enchant Cloak - Superior Shadow Resistance": {
         "category": "enchanting",
@@ -34768,7 +34976,8 @@
             "Infinite Dust": 8,
             "Lesser Cosmic Essence": 2,
             "Eternal Life": 1
-        }
+        },
+        "scrollId": 38977
     },
     "Enchant Cloak - Titanweave": {
         "category": "enchanting",
@@ -34776,35 +34985,40 @@
             "Infinite Dust": 8,
             "Titanium Bar": 2,
             "Dream Shard": 2
-        }
+        },
+        "scrollId": 38978
     },
     "Enchant Gloves - Exceptional Spellpower": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 4,
             "Lesser Cosmic Essence": 1
-        }
+        },
+        "scrollId": 38979
     },
     "Enchant Bracers - Major Spirit": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 16,
             "Greater Cosmic Essence": 4
-        }
+        },
+        "scrollId": 38980
     },
     "Enchant 2H Weapon - Scourgebane": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 6,
             "Dream Shard": 6
-        }
+        },
+        "scrollId": 38981
     },
     "Enchant Cloak - Superior Arcane Resistance": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 20,
             "Eternal Earth": 1
-        }
+        },
+        "scrollId": 38982
     },
     "Enchant Bracers - Expertise": {
         "category": "enchanting",
@@ -34818,63 +35032,72 @@
         "reagents": {
             "Infinite Dust": 16,
             "Greater Cosmic Essence": 3
-        }
+        },
+        "scrollId": 38987
     },
     "Enchant Weapon - Giant Slayer": {
         "category": "enchanting",
         "reagents": {
             "Greater Cosmic Essence": 2,
             "Dream Shard": 6
-        }
+        },
+        "scrollId": 38988
     },
     "Enchant Chest - Super Stats": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 4,
             "Lesser Cosmic Essence": 2
-        }
+        },
+        "scrollId": 38989
     },
     "Enchant Gloves - Armsman": {
         "category": "enchanting",
         "reagents": {
             "Dream Shard": 2,
             "Eternal Earth": 8
-        }
+        },
+        "scrollId": 38990
     },
     "Enchant Weapon - Exceptional Spellpower": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 10,
             "Greater Cosmic Essence": 2
-        }
+        },
+        "scrollId": 38991
     },
     "Enchant 2H Weapon - Greater Savagery": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 6,
             "Greater Cosmic Essence": 2
-        }
+        },
+        "scrollId": 38992
     },
     "Enchant Cloak - Shadow Armor": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 12,
             "Abyss Crystal": 1
-        }
+        },
+        "scrollId": 38993
     },
     "Enchant Weapon - Exceptional Agility": {
         "category": "enchanting",
         "reagents": {
             "Dream Shard": 4,
             "Eternal Air": 4
-        }
+        },
+        "scrollId": 38995
     },
     "Enchant Bracers - Greater Spellpower": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 8,
             "Lesser Cosmic Essence": 4
-        }
+        },
+        "scrollId": 38997
     },
     "Enchant Ring - Greater Spellpower": {
         "category": "enchanting",
@@ -34904,7 +35127,8 @@
         "reagents": {
             "Primal Shadow": 2,
             "Primal Water": 2
-        }
+        },
+        "scrollId": 38998
     },
     "Enchant Chest - Defense": {
         "category": "enchanting",
@@ -34912,49 +35136,56 @@
             "Greater Planar Essence": 4,
             "Arcane Dust": 8,
             "Eternium Ore": 4
-        }
+        },
+        "scrollId": 38999
     },
     "Enchant Cloak - Steelweave": {
         "category": "enchanting",
         "reagents": {
             "Greater Planar Essence": 8,
             "Primal Earth": 8
-        }
+        },
+        "scrollId": 39000
     },
     "Enchant Cloak - Mighty Armor": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 15,
             "Greater Cosmic Essence": 2
-        }
+        },
+        "scrollId": 39001
     },
     "Enchant Chest - Greater Defense": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 10,
             "Eternal Earth": 1
-        }
+        },
+        "scrollId": 39002
     },
     "Enchant Cloak - Greater Speed": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 16,
             "Greater Cosmic Essence": 4
-        }
+        },
+        "scrollId": 39003
     },
     "Enchant Cloak - Wisdom": {
         "category": "enchanting",
         "reagents": {
             "Greater Cosmic Essence": 6,
             "Abyss Crystal": 1
-        }
+        },
+        "scrollId": 39004
     },
     "Enchant Chest - Super Health": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 20,
             "Greater Cosmic Essence": 4
-        }
+        },
+        "scrollId": 39005
     },
     "Enchant Boots - Tuskarr's Vitality": {
         "category": "enchanting",
@@ -34962,7 +35193,8 @@
             "Infinite Dust": 10,
             "Greater Cosmic Essence": 2,
             "Dream Shard": 2
-        }
+        },
+        "scrollId": 39006
     },
     "Enchant Weapon - Accuracy": {
         "category": "enchanting",
@@ -34971,7 +35203,8 @@
             "Greater Cosmic Essence": 4,
             "Dream Shard": 4,
             "Abyss Crystal": 6
-        }
+        },
+        "scrollId": 44497
     },
     "Enchant Weapon - Berserking": {
         "category": "enchanting",
@@ -34980,7 +35213,8 @@
             "Greater Cosmic Essence": 4,
             "Dream Shard": 4,
             "Abyss Crystal": 10
-        }
+        },
+        "scrollId": 44493
     },
     "Enchant Weapon - Black Magic": {
         "category": "enchanting",
@@ -34988,7 +35222,8 @@
             "Greater Cosmic Essence": 6,
             "Dream Shard": 6,
             "Abyss Crystal": 6
-        }
+        },
+        "scrollId": 43987
     },
     "Enchant Ring - Stamina": {
         "category": "enchanting",
@@ -35002,19 +35237,22 @@
         "reagents": {
             "Infinite Dust": 4,
             "Lesser Cosmic Essence": 4
-        }
+        },
+        "scrollId": 44449
     },
     "Enchant Cloak - Speed": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 6
-        }
+        },
+        "scrollId": 44456
     },
     "Enchant Bracers - Striking": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 6
-        }
+        },
+        "scrollId": 38971
     },
     "Runed Titanium Rod": {
         "category": "enchanting",
@@ -35034,20 +35272,23 @@
         "reagents": {
             "Infinite Dust": 2,
             "Lesser Cosmic Essence": 4
-        }
+        },
+        "scrollId": 44453
     },
     "Enchant Boots - Icewalker": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 8,
             "Crystallized Water": 1
-        }
+        },
+        "scrollId": 38986
     },
     "Enchant Shield - Greater Intellect": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 12
-        }
+        },
+        "scrollId": 44455
     },
     "Enchant Cloak - Major Agility": {
         "category": "enchanting",
@@ -35055,7 +35296,8 @@
             "Infinite Dust": 8,
             "Greater Cosmic Essence": 2,
             "Dream Shard": 2
-        }
+        },
+        "scrollId": 44457
     },
     "Enchant Gloves - Crusher": {
         "category": "enchanting",
@@ -35063,7 +35305,8 @@
             "Infinite Dust": 20,
             "Greater Cosmic Essence": 4,
             "Dream Shard": 1
-        }
+        },
+        "scrollId": 44458
     },
     "Enchant 2H Weapon - Massacre": {
         "category": "enchanting",
@@ -35071,14 +35314,16 @@
             "Infinite Dust": 40,
             "Greater Cosmic Essence": 6,
             "Abyss Crystal": 6
-        }
+        },
+        "scrollId": 44463
     },
     "Enchant Chest - Powerful Stats": {
         "category": "enchanting",
         "reagents": {
             "Dream Shard": 4,
             "Abyss Crystal": 4
-        }
+        },
+        "scrollId": 44465
     },
     "Enchant Weapon - Superior Potency": {
         "category": "enchanting",
@@ -35087,7 +35332,8 @@
             "Greater Cosmic Essence": 2,
             "Dream Shard": 2,
             "Abyss Crystal": 4
-        }
+        },
+        "scrollId": 44466
     },
     "Enchant Weapon - Mighty Spellpower": {
         "category": "enchanting",
@@ -35095,14 +35341,16 @@
             "Infinite Dust": 30,
             "Dream Shard": 6,
             "Abyss Crystal": 6
-        }
+        },
+        "scrollId": 44467
     },
     "Enchant Boots - Greater Assault": {
         "category": "enchanting",
         "reagents": {
             "Greater Cosmic Essence": 4,
             "Dream Shard": 4
-        }
+        },
+        "scrollId": 44469
     },
     "Enchant Bracers - Superior Spellpower": {
         "category": "enchanting",
@@ -35125,21 +35373,24 @@
             "Infinite Dust": 40,
             "Dream Shard": 6,
             "Abyss Crystal": 6
-        }
+        },
+        "scrollId": 45056
     },
     "Enchant Staff - Spellpower": {
         "category": "enchanting",
         "reagents": {
             "Infinite Dust": 12,
             "Greater Cosmic Essence": 2
-        }
+        },
+        "scrollId": 45060
     },
     "Enchant Boots - Lesser Accuracy": {
         "category": "enchanting",
         "reagents": {
             "Vision Dust": 4,
             "Lesser Nether Essence": 1
-        }
+        },
+        "scrollId": 45628
     },
     "Enchant Weapon - Blade Ward": {
         "category": "enchanting",
@@ -35147,7 +35398,8 @@
             "Abyss Crystal": 4,
             "Greater Cosmic Essence": 8,
             "Titansteel Bar": 1
-        }
+        },
+        "scrollId": 46026
     },
     "Enchant Weapon - Blood Draining": {
         "category": "enchanting",
@@ -35155,7 +35407,8 @@
             "Abyss Crystal": 4,
             "Infinite Dust": 40,
             "Scarlet Ruby": 1
-        }
+        },
+        "scrollId": 46098
     },
     "Abyssal Shatter": {
         "category": "enchanting",
@@ -35171,6 +35424,7 @@
         "reagents": {
             "Infinite Dust": 1,
             "Ethereal Oil": 3
-        }
+        },
+        "scrollId": 50816
     }
 }

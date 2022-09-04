@@ -33,6 +33,12 @@ export default async function calculate(server, faction) {
       } else if (info.bindOnPickup) {
         r.bindOnPickup = true;
       }
+      if(info.scrollId !== undefined && 
+        info.scrollId !== info.id &&
+        data[info.scrollId] !== undefined){
+        r.marketValue = data[info.scrollId].marketValue
+        r.quantity = data[info.scrollId].quantity
+      }
     }
     return price(results[item]);
   }
