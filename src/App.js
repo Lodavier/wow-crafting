@@ -97,7 +97,6 @@ function itemDefault(results, item) {
   if (!data) {
     debugger;
   }
-  console.log(data)
   if (!isNaN(data.craftingPrice) && (!data.marketValue || data.craftingPrice < data.marketValue)) {
     return "crafting";
   } else {
