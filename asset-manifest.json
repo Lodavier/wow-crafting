@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/wow-crafting/static/css/main.6f2f9200.css",
+    "main.css": "/wow-crafting/static/css/main.e58fe3a3.css",
     "main.js": "/wow-crafting/static/js/main.42bd8a3c.js",
     "index.html": "/wow-crafting/index.html",
-    "main.6f2f9200.css.map": "/wow-crafting/static/css/main.6f2f9200.css.map",
+    "main.e58fe3a3.css.map": "/wow-crafting/static/css/main.e58fe3a3.css.map",
     "main.42bd8a3c.js.map": "/wow-crafting/static/js/main.42bd8a3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f2f9200.css",
+    "static/css/main.e58fe3a3.css",
     "static/js/main.42bd8a3c.js"
   ]
 }
