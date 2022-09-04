@@ -1,6 +1,6 @@
 {
   "name": "wow-crafting",
-  "homepage": "https://d07riv.github.io/wow-crafting",
+  "homepage": "./wow-crafting",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
