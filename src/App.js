@@ -4,63 +4,33 @@ import './App.scss';
 import Select from 'react-select';
 import AsyncSelect from 'react-select/async';
 
-import { serverList } from './nexushub';
+import { getServers } from './tsm';
 
 import Data from './data';
 import calculate from './logic';
-
-function usePersistentState(key, initialValue) {
-  const [value, setValue] = React.useState(() => {
-    try {
-      const item = window.localStorage.getItem(key);
-      return item != null ? JSON.parse(item) : initialValue;
-    } catch (error) {
-      console.error(error);
-      return initialValue;
-    }
-  });
-  React.useEffect(() => {
-    try {
-      window.localStorage.setItem(key, JSON.stringify(value));
-    } catch (error) {
-      console.error(error);
-    }
-  }, [key, value]);
-  return [value, setValue];
-}
-
-const serverOptions = serverList.then(servers => {
-  const regions = {};
-  servers.forEach(({slug, name, region}) => {
-    if (!regions[region]) regions[region] = [];
-    regions[region].push({value: slug, label: name});
-  });
-  return Object.entries(regions).map(([region, list]) => {
-    list.sort(({label: name1}, {label: name2}) => name1.localeCompare(name2));
-    return {label: region, options: list};
-  });
-});
+import Auth from './Auth';
+import { usePersistentState } from './util'
 
 const factionOptions = [
-  {value: "alliance", label: "Alliance"},
-  {value: "horde", label: "Horde"},
-  {value: "both", label: "Both"},
+  { value: "alliance", label: "Alliance" },
+  { value: "horde", label: "Horde" },
+  // { value: "both", label: "Both" },
 ];
 
 const profNames = {
-  alchemy: "Alchemy", 
-  blacksmithing: "Blacksmithing", 
-  cooking: "Cooking", 
-  enchanting: "Enchanting", 
-  engineering: "Engineering", 
-  firstaid: "First Aid", 
-  leatherworking: "Leatherworking", 
+  alchemy: "Alchemy",
+  blacksmithing: "Blacksmithing",
+  cooking: "Cooking",
+  enchanting: "Enchanting",
+  engineering: "Engineering",
+  firstaid: "First Aid",
+  leatherworking: "Leatherworking",
   mining: "Mining",
   tailoring: "Tailoring",
   jewelcrafting: "Jewelcrafting",
   inscription: "Inscription"
 };
-const categoryNames = {...profNames, quest: "Quests", tierset: "Tier Sets", "": "Misc"};
+const categoryNames = { ...profNames, quest: "Quests", tierset: "Tier Sets", "": "Misc" };
 
 const itemOptions = (term, callback) => {
   if (term.length < 3) callback([]);
@@ -68,12 +38,12 @@ const itemOptions = (term, callback) => {
   const categories = {};
   Object.entries(Data).filter(([name, data]) => data.reagents && name.toLowerCase().includes(term)).forEach(([name, data]) => {
     categories[data.category || ""] = (categories[data.category || ""] || []);
-    categories[data.category || ""].push({value: name, label: name});
+    categories[data.category || ""].push({ value: name, label: name });
   });
-  callback(Object.entries(categories).map(([cat, list]) => ({label: categoryNames[cat], options: list})));
+  callback(Object.entries(categories).map(([cat, list]) => ({ label: categoryNames[cat], options: list })));
 }
 
-function Money({value}) {
+function Money({ value }) {
   if (!isFinite(value)) {
     return "Not available";
   }
@@ -111,8 +81,8 @@ function itemPrice(results, item, overrides, stack = []) {
   }
 
   let recursion = false;
-  for(const reagent in data.crafting){
-    if(stack.includes(reagent)){
+  for (const reagent in data.crafting) {
+    if (stack.includes(reagent)) {
       recursion = true;
       break;
     }
@@ -132,7 +102,7 @@ function craftingPrice(results, item, overrides, stack = []) {
   stack.push(item)
 
   let total = results[item].requiredMoney
-  for(const reagent in results[item].crafting){
+  for (const reagent in results[item].crafting) {
     total += itemPrice(results, reagent, overrides, stack) * results[item].crafting[reagent]
   }
 
@@ -142,9 +112,9 @@ function craftingPrice(results, item, overrides, stack = []) {
 function profLabel(data) {
   if (profNames[data.category]) {
     if (data.amountCrafted !== 1) {
-      return <span><span className={"trade-icon trade-" + data.category}/>{profNames[data.category]} (per {data.amountCrafted}): </span>;
+      return <span><span className={"trade-icon trade-" + data.category} />{profNames[data.category]} (per {data.amountCrafted}): </span>;
     } else {
-      return <span><span className={"trade-icon trade-" + data.category}/>{profNames[data.category]}: </span>;
+      return <span><span className={"trade-icon trade-" + data.category} />{profNames[data.category]}: </span>;
     }
   } else {
     return "";
@@ -166,7 +136,7 @@ function shoppingList(list, results, item, count, overrides) {
   return list;
 }
 
-function ItemLink({name, data}) {
+function ItemLink({ name, data }) {
   if (data.id) {
     return <a className={"quality-" + data.quality} href={`https://wowhead.com/wotlk/item=${data.id}`} target="_blank" rel="noreferrer">{name}</a>;
   } else {
@@ -174,12 +144,12 @@ function ItemLink({name, data}) {
   }
 }
 
-function ResultView({item, count, ...props}) {
-  const {results, overrides, setOverrides, setShopping} = props;
-  const setMarket = React.useCallback(() => setOverrides(ov => ({...ov, [item]: "market"})), [setOverrides, item]);
-  const setCrafting = React.useCallback(() => setOverrides(ov => ({...ov, [item]: "crafting"})), [setOverrides, item]);
+function ResultView({ item, count, ...props }) {
+  const { results, overrides, setOverrides, setShopping } = props;
+  const setMarket = React.useCallback(() => setOverrides(ov => ({ ...ov, [item]: "market" })), [setOverrides, item]);
+  const setCrafting = React.useCallback(() => setOverrides(ov => ({ ...ov, [item]: "crafting" })), [setOverrides, item]);
 
-  const addShopping = React.useCallback(() => setShopping(s => ({...s, [item]: (s[item] || 0) + 1})), [setShopping, item]);
+  const addShopping = React.useCallback(() => setShopping(s => ({ ...s, [item]: (s[item] || 0) + 1 })), [setShopping, item]);
 
   const data = results[item];
   if (!data) return null;
@@ -188,7 +158,7 @@ function ResultView({item, count, ...props}) {
   const mode = overrides[item] || itemDefault(results, item);
 
   if (data.vendorPrice) {
-    price = <React.Fragment>Vendor: <Money value={data.vendorPrice}/></React.Fragment>;
+    price = <React.Fragment>Vendor: <Money value={data.vendorPrice} /></React.Fragment>;
   } else if (!data.marketValue && !data.crafting) {
     price = data.bindOnPickup ? "Bind on Pickup" : "Not available";
   } else if (data.marketValue || data.craftingPrice != null) {
@@ -196,22 +166,22 @@ function ResultView({item, count, ...props}) {
     if (data.marketValue || cprice) {
       price = (
         <React.Fragment>
-          {!!data.marketValue && <span onClick={setMarket} className={mode === "market" ? "active" : "inactive"}>Market{data.faction ? ` (${data.faction})` : ""}: <Money value={data.marketValue}/> (quantity: {data.quantity})</span>}
+          {!!data.marketValue && <span onClick={setMarket} className={mode === "market" ? "active" : "inactive"}>Market{data.faction ? ` (${data.faction})` : ""}: <Money value={data.marketValue} /> (quantity: {data.quantity})</span>}
           {!!(data.marketValue && data.crafting) && " / "}
-          {cprice > 0 && <span onClick={setCrafting} className={mode === "crafting" ? "active" : "inactive"}>{profLabel(data)}<Money value={cprice}/></span>}
+          {cprice > 0 && <span onClick={setCrafting} className={mode === "crafting" ? "active" : "inactive"}>{profLabel(data)}<Money value={cprice} /></span>}
         </React.Fragment>
       );
     }
   }
   return (
     <div className="item">
-      <div className="header">{!!count && <span className="count">{count}x</span>}<ItemLink name={item} data={data}/>{!!price && " "}{!!price && <span className="add-list" onClick={addShopping}>(add)</span>}{!!price && " - "}{price}</div>
+      <div className="header">{!!count && <span className="count">{count}x</span>}<ItemLink name={item} data={data} />{!!price && " "}{!!price && <span className="add-list" onClick={addShopping}>(add)</span>}{!!price && " - "}{price}</div>
       {!!(!data.vendorPrice && mode === "crafting" && data.crafting) && (
         <div className="crafting">
-          {Object.entries(data.crafting).map(([name, quantity]) => <ResultView key={name} item={name} count={quantity} {...props}/>)}
+          {Object.entries(data.crafting).map(([name, quantity]) => <ResultView key={name} item={name} count={quantity} {...props} />)}
           {!!data.requiredMoney && (
             <div className="item">
-              <div className="header">Required Money: <Money value={data.requiredMoney}/></div>
+              <div className="header">Required Money: <Money value={data.requiredMoney} /></div>
             </div>
           )}
         </div>
@@ -220,9 +190,9 @@ function ResultView({item, count, ...props}) {
   );
 }
 
-function ShoppingItem({results, item, count, setShopping}) {
+function ShoppingItem({ results, item, count, setShopping }) {
   const onChange = React.useCallback(e => setShopping(list => {
-    list = {...list};
+    list = { ...list };
     const value = parseInt(e.target.value);
     if (value && !isNaN(value)) {
       list[item] = value;
@@ -232,10 +202,10 @@ function ShoppingItem({results, item, count, setShopping}) {
     return list;
   }), [item, setShopping]);
 
-  return <li><input type="number" className="task-counter" value={count} onChange={onChange}/> <ItemLink name={item} data={results[item]}/></li>;
+  return <li><input type="number" className="task-counter" value={count} onChange={onChange} /> <ItemLink name={item} data={results[item]} /></li>;
 }
 
-function ShoppingList({results, overrides, shopping, setShopping}) {
+function ShoppingList({ results, overrides, shopping, setShopping }) {
   const [list, total] = React.useMemo(() => {
     const list = Object.entries(Object.entries(shopping).reduce((list, [item, count]) => shoppingList(list, results, item, count, overrides), {}))
       .filter(([name, count]) => count > 0)
@@ -267,35 +237,44 @@ function ShoppingList({results, overrides, shopping, setShopping}) {
     <div className="shopping-list">
       <div className="header">Shopping for <span className="add-list" onClick={clearList}>(clear)</span></div>
       <ul>
-        {Object.entries(shopping).map(([item, count]) => <ShoppingItem key={item} results={results} item={item} count={shopping[item]} setShopping={setShopping}/>)}
+        {Object.entries(shopping).map(([item, count]) => <ShoppingItem key={item} results={results} item={item} count={shopping[item]} setShopping={setShopping} />)}
       </ul>
-      <div className="header">Items to buy - <Money value={total}/></div>
+      <div className="header">Items to buy - <Money value={total} /></div>
       <ul>
         {list.map(([name, count]) => {
           if (name === "money") {
-            return <li>Money: <Money value={count}/></li>
+            return <li>Money: <Money value={count} /></li>
           }
           const data = results[name];
           let price = null;
           if (data.vendorPrice) {
-            price = <span>Vendor: <Money value={data.vendorPrice * count}/></span>;
+            price = <span>Vendor: <Money value={data.vendorPrice * count} /></span>;
           } else if (!data.marketValue) {
             price = data.bindOnPickup ? "Bind on Pickup" : "Not available";
           } else {
-            price = <span>Market{data.faction ? ` (${data.faction})` : ""}: <Money value={data.marketValue * count}/></span>;
+            price = <span>Market{data.faction ? ` (${data.faction})` : ""}: <Money value={data.marketValue * count} /></span>;
           }
-          return <li><span className="count">{count}x</span><ItemLink name={name} data={results[name]}/> - {price}</li>;
+          return <li><span className="count">{count}x</span><ItemLink name={name} data={results[name]} /> - {price}</li>;
         })}
       </ul>
     </div>
   );
 }
 
-export default function App() {
+const serverOptions = (authToken) => getServers(authToken).then(servers => {
+  return servers.map(s => ({
+    label: s.name,
+    value: JSON.stringify({
+      auctionHouses: s.auctionHouses
+    })
+  }))
+})
+
+function Main({authToken}) {
   const [serverList, setServerList] = React.useState([]);
   React.useEffect(() => {
-    serverOptions.then(opt => setServerList(opt));
-  }, []);
+    serverOptions(authToken).then(opt => setServerList(opt));
+  }, [authToken]);
 
   const [server, setServer] = usePersistentState("wowcrafting-server");
   const [faction, setFaction] = usePersistentState("wowcrafting-faction", factionOptions[0]);
@@ -321,18 +300,25 @@ export default function App() {
   const toCalc = React.useRef();
   React.useEffect(() => {
     if (!server || !faction) return;
-    const slug = `${server.value}-${faction.value}`;
-    toCalc.current = slug;
+
+    const serverData = JSON.parse(server.value)
+    const ah = (faction.value === 'horde') ?
+      serverData.auctionHouses.find(ah => ah.type === "Horde") :
+      serverData.auctionHouses.find(ah => ah.type === "Alliance")
+
+    const ahId = ah.auctionHouseId
+
+    toCalc.current = ahId;
     setResults(true);
-    calculate(server.value, faction.value).then(data => {
-      if (toCalc.current === slug) {
+    calculate(ahId, authToken).then(data => {
+      if (toCalc.current === ahId) {
         setResults(data);
       }
     });
-  }, [server, faction]);
+  }, [server, faction, authToken]);
 
   return (
-    <div className="App">
+    <>
       <div className="config">
         <Select className="select-server" value={server} onChange={onServerChange} options={serverList} placeholder="Select server..."/>
         <Select className="select-faction" value={faction} onChange={onFactionChange} options={factionOptions}/>
@@ -350,6 +336,27 @@ export default function App() {
           {results !== true && <ShoppingList results={results} overrides={overrides} shopping={shopping} setShopping={setShopping}/>}
         </div>
       )}
-    </div>
+    </>
   );
+}
+
+export default function App() {
+  const [authToken, setToken] = usePersistentState("wowcrafting-authtoken", null);
+
+  const oneHourFromNow = (Date.now() + (60 * 60 * 1000)) / 1000;
+  if(authToken && authToken.expires_at < oneHourFromNow)
+  {
+    console.warn("TOKEN REFRESH", authToken.expires_at, oneHourFromNow)
+    setToken(null)
+  }
+
+  return (<>
+    <div className="App">
+      { (!authToken)  ? <Auth setToken={setToken}/> : <Main authToken={authToken.access_token}/> }
+      { authToken && (
+      <div className="col-sm-3">
+        <button className="btn btn-outline-light" onClick={() => setToken(null)}>Clear Token</button>
+      </div>)}
+    </div>
+  </>);
 }

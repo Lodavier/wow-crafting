@@ -1,4 +1,4 @@
-import { loadData } from './nexushub';
+import { loadData } from './tsm';
 import Data from './data';
 
 export default async function calculate(server, faction) {
