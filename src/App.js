@@ -43,6 +43,8 @@ const itemOptions = (term, callback) => {
   callback(Object.entries(categories).map(([cat, list]) => ({ label: categoryNames[cat], options: list })));
 }
 
+const baseUrl = "https://www.wowhead.com/cata"
+
 function Money({ value }) {
   if (!isFinite(value)) {
     return "Not available";
@@ -138,7 +140,7 @@ function shoppingList(list, results, item, count, overrides) {
 
 function ItemLink({ name, data }) {
   if (data.id) {
-    return <a className={"quality-" + data.quality} href={`https://wowhead.com/wotlk/item=${data.id}`} target="_blank" rel="noreferrer">{name}</a>;
+    return <a className={"quality-" + data.quality} href={`${baseUrl}/item=${data.id}`} target="_blank" rel="noreferrer">{name}</a>;
   } else {
     return <span className={"quality-" + data.quality}>{name}</span>;
   }
