@@ -284,6 +284,7 @@ function Main({authToken}) {
   const [results, setResults] = React.useState();
   const [overrides, setOverrides] = React.useState({});
   const [shopping, setShopping] = React.useState({});
+  const [useMinBuyout, setUseMinBuyout] = React.useState(true);
 
   const onServerChange = React.useCallback(v => {
     setResults(null);
@@ -312,12 +313,15 @@ function Main({authToken}) {
 
     toCalc.current = ahId;
     setResults(true);
-    calculate(ahId, authToken).then(data => {
+
+    const valueKey = useMinBuyout ? "minBuyout" : "marketValue"
+
+    calculate(ahId, authToken, valueKey).then(data => {
       if (toCalc.current === ahId) {
         setResults(data);
       }
     });
-  }, [server, faction, authToken]);
+  }, [server, faction, authToken, useMinBuyout]);
 
   return (
     <>
@@ -325,6 +329,10 @@ function Main({authToken}) {
         <Select className="select-server" value={server} onChange={onServerChange} options={serverList} placeholder="Select server..."/>
         <Select className="select-faction" value={faction} onChange={onFactionChange} options={factionOptions}/>
         {!!(server && faction) && <AsyncSelect className="select-item" value={item} onChange={onItemChange} loadOptions={itemOptions} noOptionsMessage={() => null} placeholder="Select item..."/>}
+        {!!(server && faction) && <div className="form-check d-inline-block">
+            <input className="form-check-input" type="checkbox" id="useMinBuyoutCheckbox" checked={useMinBuyout} onChange={() => setUseMinBuyout(!useMinBuyout)} />
+            <label className="form-check-label" htmlFor="useMinBuyoutCheckbox">Use Min Buyout</label>
+          </div>}
       </div>
       {!!(results && item) && (
         <div className="Results">

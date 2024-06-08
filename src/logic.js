@@ -1,8 +1,8 @@
 import { loadData } from './tsm';
 import Data from './data';
 
-export default async function calculate(server, faction) {
-  const data = await loadData(server, faction);
+export default async function calculate(server, faction, valueKey) {
+  const data = await loadData(server, faction, valueKey);
 
   const price = r => Math.min(...[r.vendorPrice, r.marketValue, r.craftingPrice, r.bindOnPickup ? 0 : Infinity].filter(x => !isNaN(x)));
 

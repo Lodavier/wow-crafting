@@ -1,5 +1,6 @@
 function proxyUrl(url){
-    return "https://corsproxy.io/?" + url
+    const proxyUrl = "https://loda-cors-proxy.azurewebsites.net/?"
+    return proxyUrl + url
 }
 
 export async function getAuthToken(apiKey){
@@ -44,7 +45,7 @@ async function getRegionId(authToken){
 export async function getServers(authToken){
     const regionId = await getRegionId(authToken)
     
-    const url = `https://realm-api.tradeskillmaster.com/regions/${regionId}/realms`
+    const url = `https://realm-api.tradeskillmaster.com/realms`
 
     const resp = await fetch(proxyUrl(url),
         {
@@ -53,9 +54,11 @@ export async function getServers(authToken){
             }
         })
 
-    const realms = await resp.json()
+    const regions = await resp.json()
 
-    return realms.items
+    const region = regions.items.find(r => r.regionId === regionId)
+
+    return region.realms
 }
 
 const cacheKey = "wowcrafting-tsm-pricing-cache";
@@ -87,7 +90,7 @@ function saveCachedData(data, ahId){
     window.localStorage.setItem(key, JSON.stringify(newValue))
 }
 
-export async function loadData(ahId, authToken) {
+export async function loadData(ahId, authToken, valueKey) {
     let data = getCachedData(ahId)
     if (!data){ 
         const url = `https://pricing-api.tradeskillmaster.com/ah/${ahId}`
@@ -108,7 +111,7 @@ export async function loadData(ahId, authToken) {
         saveCachedData(data, ahId)
     }    
 
-    const mapped = data.map(({itemId, quantity, marketValue}) => [itemId, {quantity, marketValue}])
+    const mapped = data.map(item => [item.itemId, {quantity: item.quantity, marketValue: item[valueKey]}])
     const result = Object.fromEntries(mapped)
 
     return result
